@@ -185,6 +185,31 @@ body {
     }
 }
 
+/*  */
+.horizontal-section {
+    padding: 100px 0;
+    background-color:var(--grey);
+  }
+  
+  .sticky-wrapper {
+    position: sticky;
+    top: 100px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .element-wrapper {
+    position: relative;
+    display: flex;
+  }
+  
+  .element {
+    width: 500px;
+    height: 400px;
+    background-color: var(--orange2);
+    margin: 0 20px 0 0;
+    flex-shrink: 0;
+  }
 
 /* 
 
