@@ -187,13 +187,14 @@ body {
 
 /*  */
 .horizontal-section {
-    padding: 100px 0;
-    background-color:var(--grey);
+    padding: 10% 0.5%;
+    background-color:var(--black);
   }
+   
   
   .sticky-wrapper {
     position: sticky;
-    top: 100px;
+    top: 20vh;
     width: 100%;
     overflow: hidden;
   }
@@ -205,12 +206,19 @@ body {
   
   .element {
     width: 500px;
-    height: 400px;
+    height: 50vh;
+    /* background-image: url("../221248694_333529398503015_6871188241753589753_n.jpg"); */
+    background-repeat: no-repeat;
     background-color: var(--orange2);
     margin: 0 20px 0 0;
     flex-shrink: 0;
+    color: var(--white);
+    font-size: 3rem;
+    background-size: cover;
+    background-position: 50% 0;
+     
   }
-
+  
 /* 
 
 .title__index  {
