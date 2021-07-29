@@ -257,6 +257,17 @@ body {
     color: red;
     cursor: pointer;
   }
+   
+  .artist__name{
+    font-size:2vw;
+    font-family: 'Homemade Apple', cursive;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+  }
+  .artist__name:hover{
+      color: var(--orange2);
+  }
 
   
 /* 
@@ -424,81 +435,7 @@ body {
 
 /* BOTONES SECCION ARTISTAS */
 /* quita el punto de la lista */
-ul li{
-    list-style: none;
-    margin: 0 20%;
-}
-
-ul li a span{
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 30px;
-    color: var(--white);
-    letter-spacing: 4px;
-    transition: 0.5s;
-    font-size: 12px;
-    font-family: Helvetica;
-    
-}
-/* vista superior */
-ul li a {
-    text-decoration: none;
-    display:absolute;
-    display:block;
-    width:150px;
-    height:80px;
-    background:var(--orange);
-    text-align:left;
-    padding-left: 15px;
-    padding-right: 15px;
-    transform: rotate(-0deg) skew(0deg) translate(0,0);
-    transition:.5s;
-    box-shadow: -20px 20px 10px var(--black);
-}
-  /* lado izquierdo */
-ul li a:before {
-    content: '';
-    position: absolute;
-    top:10px;
-    left:-20px;
-    height:100%;
-    width:20px;
-    background: var(--grey);
-    transform: .5s;
-    transform: rotate(0deg) skewY(-45deg);
-}
-  /* cara derecha */
-ul li a:after {
-    content: '';
-    position: absolute;
-    bottom:-20px;
-    left:-10px;
-    height:20px;
-    width:100%;
-    background: var(--grey);
-    transform: .5s;
-    transform: rotate(0deg) skewX(-45deg);
-}
-/* sombra inferior */
-ul li a:hover{
-    transform: rotate(-0deg) skew(2deg) translate(20px, -15px);
-    box-shadow: -50px 50px 50px var(--grey);
-}
-/* 2do color de letra */
-ul li a:hover span{
-    color: var(--orange);
-}
-/* color cara superior/izquierda/derecha orden */
-ul li:hover:nth-child(1) a{
-    background: var(--blue);
-}
-ul li:hover:nth-child(1) a::before{
-    background: var(--orange);
-}
-ul li:hover:nth-child(1) a::after{
-    background: var(--grey);
-}
+ 
 
 
 
