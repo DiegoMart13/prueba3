@@ -259,7 +259,8 @@ body {
   }
    
   .artist__name{
-    font-size:2vw;
+    margin-left: 50px;
+    font-size:3vw;
     font-family: 'Homemade Apple', cursive;
     text-decoration: none;
     color: var(--white);
@@ -268,6 +269,15 @@ body {
   .artist__name:hover{
       color: var(--orange2);
   }
+.option__two{
+    font-family: 'Great Vibes';
+}
+.option__three{
+    font-family: 'Satisfy';
+}
+.option__four{
+    font-family: 'Kaushan Script';
+}
 
   
 /* 
