@@ -192,7 +192,8 @@ body {
 .horizontal-section {
     padding: 10% 0.5%;
     background-color:var(--black);
-  
+    border-style: dotted ;
+    border-color: green; 
   }
    
   
@@ -202,11 +203,17 @@ body {
     width: 100%;
     overflow: hidden;
     /* transform:rotate(-4deg); */
+    border-style: dotted ;
+    border-color: red;
+    
+    
   }
   
   .element-wrapper {
     position: relative;
     display: flex;
+    
+    
   }
   
   .element {
@@ -223,6 +230,9 @@ body {
     background-size: cover;
     background-position: 50% 0;
     font-family: 'Bungee';
+    border-style: dotted ;
+    border-color: blue;
+    
      
   }
   .vertical__img{
@@ -232,14 +242,18 @@ body {
     height: 60vh;
     margin: 0 0px 0 0;
   }
+  
+     
+  
   .title__carrucel{
+
     width: 700px;
     height: 50vh;
     /* background-image: url("../221248694_333529398503015_6871188241753589753_n.jpg"); */
     background-repeat: no-repeat;
     background-color: var(--black);
-    margin: 0 20px 0 0;
-    flex-shrink: 0;
+    /* margin: 0 20px 0 0;
+    flex-shrink: 0; */
     
     
     font-size:10vw;
@@ -250,11 +264,17 @@ body {
     font-family: 'Bungee';
     color: var(--white);
     color: transparent;
-    -webkit-text-stroke: 2px #f2a900b0;
-	text-stroke: 1spx #f2a900b0;
+    
+    -webkit-text-stroke: 2px #000000b0;
+	text-stroke: 1spx #000000b0;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
-    display: block;
+    /* display: block; */
+
+    border-style:  solid ;
+    border-color: rgb(0, 0, 0);
+    padding-left: 5%;
+    padding-right: 5%;
     
   }
   .text__carrucel:hover{
@@ -269,6 +289,7 @@ body {
     text-decoration: none;
     color: var(--white);
     font-weight: bold;
+    
   }
   .artist__name:hover{
       color: var(--orange2);
@@ -377,9 +398,10 @@ body {
     font-size: 45px;
     margin-top: 50px;
     border-radius: 3px;
-    background-color: var(--orange);
+    background-color:red;
     text-align: center; 
-    color: var(--white);   
+    color: var(--white);  
+    
 }
 .text-block-inicio{
     font-size: 20px;
