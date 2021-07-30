@@ -7,14 +7,16 @@
 
 :root{
     --grey: #95979b;
-    --blue:#00245b; 
+    /* --blue:#00245b;  */
+    --blue:#fff; 
 
     --orange: #f2a900b0;
     --orange2: #f2a900;
      
 
-    --white: #fff;
-    --black: #000;
+    --white: #000;
+    --black: #fff;
+    
 }
 
 html{
@@ -190,6 +192,7 @@ body {
 .horizontal-section {
     padding: 10% 0.5%;
     background-color:var(--black);
+  
   }
    
   
@@ -198,6 +201,7 @@ body {
     top: 20vh;
     width: 100%;
     overflow: hidden;
+    /* transform:rotate(-4deg); */
   }
   
   .element-wrapper {
@@ -331,7 +335,7 @@ body {
 }
 
 .button__index a {
-    font-family: Arial, Helvetica;
+    font-family:  Helvetica;
     text-decoration: none;
     color: var(--white);
     border: 3px solid white;
@@ -383,7 +387,7 @@ body {
     text-align:justify;
     margin-left: 15% ;
     margin-right: 30%;
-    font-family: Arial, Helvetica, ;
+    font-family: Helvetica, ;
 }
 .text-block{
     font-size: 20px;
@@ -392,7 +396,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
      
-    font-family: Arial, Helvetica, ;
+    font-family: Helvetica, ;
 }
 /* boton leer mas */
 .text {
@@ -403,7 +407,7 @@ body {
     text-align:justify;
     margin-left: 15% ;
     margin-right: 15%;
-    font-family: Arial, Helvetica;
+    font-family:  Helvetica;
     
 }
 .moreText {
@@ -569,7 +573,7 @@ tbody{color: white}
         display: flex;
     }
     .container .box .title h1 {
-        font-family: Arial;
+        font-family: Helvetica;
         color: #fff;
         font-size: 12px;
         animation: mainFadeIn 2s forwards;
@@ -648,7 +652,7 @@ tbody{color: white}
         text-align:justify;
         margin-left: 15% ;
         margin-right: 15%;
-        font-family: Arial, Helvetica, ;
+        font-family:  Helvetica, ;
     }
     .read-more-btn{
         position:relative;
