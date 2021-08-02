@@ -513,10 +513,10 @@ body {
 .carousel-inner{
  height: 450px;
 }
-/*intento meco de poner transparecia a los modal*/ 
+/*intento meco de poner transparecia a los modal
 .modal-content {
     background-color: #00245b50 !important;
-}
+}*/ 
 
 tbody{color: white}
 
