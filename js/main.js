@@ -56,6 +56,40 @@ function scroll(){
       }
     }
 } 
+
+
+/*animacion del modal agregar data-animation-in  data-animation-out*/
+// Different effects for showing and closing modal
+let fadeIn = 'animate__flipInX';
+let fadeOut = 'animate__flipOutX';
+
+// On show
+$('#exampleModal').on('show.bs.modal', function () {
+    $(this).removeClass(fadeOut);
+    $(this).addClass(fadeIn);
+});
+
+// On closing
+$('#exampleModal').on('hide.bs.modal', function (e) {
+    let $this = $(this);
+
+    // Check whether the fade in class still exists in this modal
+    // if this class is still exists prevent this modal
+    // to close immediately by setting up timeout, and replace
+    // the fade in class with fade out class.
+    if ($this.hasClass(fadeIn)) {
+        $this.removeClass(fadeIn);
+        $this.addClass(fadeOut);
+        e.preventDefault();
+
+        setTimeout(function () {
+            $this.modal('hide');
+        }, 1000); // the default delays from animate.css is 1s
+    }
+});
+
+
+
 inicio();
 scroll();
 
