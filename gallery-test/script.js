@@ -88,3 +88,26 @@ window.addEventListener("load", function () {
 
   ScrollTrigger.refresh();
 });
+
+const button = document.querySelector("button");
+
+/** 
+Customize the options to change the content of modal or get exact code from github repositary
+**/
+
+button.addEventListener("click", () => {
+  const options = {
+    title: "Modal",
+    icon: "info",
+    text: " Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    confirmButtonText: "continuar",
+    width:"100%",
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  };
+  Swal.fire(options);
+});
