@@ -88,7 +88,7 @@ h2 {
   /* padding: 0 5vw; */
 }
 
-p {
+.inicio {
   position: absolute;
   bottom: 10vw;
   right: 10vw;
@@ -242,4 +242,26 @@ body {
   100% {
     transform: translate(-50%);
   }
+}
+
+.modalPintura{
+  display: grid;
+}
+
+.uno{
+  grid-column: 1;
+  grid-row: 1 / 5;
+}
+
+.dos{
+  grid-column: 2 / 4;
+  grid-row: 1 / 5;
+}
+
+.ficha th, td{
+  text-align: left;
+}
+
+.descripcion th, td{
+  text-align: left;
 }

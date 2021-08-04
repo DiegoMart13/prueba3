@@ -100,13 +100,103 @@ button.addEventListener("click", () => {
     title: "Modal",
     icon: "info",
     text: " Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    confirmButtonText: "continuar",
-    width:"100%",
+    confirmButtonText: "Ver menos",
+    width:"90%",
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
     hideClass: {
       popup: 'animate__animated animate__fadeOutUp'
+    }
+  };
+  Swal.fire(options);
+});
+
+
+const pinturaH = document.querySelector('.pinturaH');
+pinturaH.addEventListener("click", () => {
+  const options = {
+    imageUrl: '../images/2-LazaroGalicia/Pintura 2-min-vista.jpg',
+    imageHeight: "auto",
+    html: 
+          '<div class="modalPintura">'+
+          ' <div class="uno">'+
+          '   <TABLE class="ficha">'+
+          '     <TR><TH>Artista:</TH>'+
+          '       <TD>Alfredo Arcos</TD> '+
+          '     <TR><TH>Fragmentaciones:</TH>'+
+          '       <TD>Ninguna</TD> '+
+          '     <TR><TH>Título:</TH>'+
+          '       <TD>Sin Título</TD> '+
+          '     <TR><TH>Técnica:</TH>'+
+          '       <TD>Óleo sobre tela</TD> '+
+          '     <TR><TH>Medidas:</TH>'+
+          '       <TD>65x100cm</TD> '+
+          '   </TABLE>'+
+          ' </div>'+
+          ' <div class="dos">'+
+          '   <TABLE class="descripcion">'+
+          '     <TR>'+
+          '       <TH>Descripción:</TH>'+
+          '     </TR>'+
+          '     <TR>'+
+          '       <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
+          '     </TR>'+
+          '   </TABLE>'+
+          ' </div>'+
+          '</div>',
+    confirmButtonText: "Cerrar",
+    width:"95%",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+
+
+const pinturaV = document.querySelector('.pinturaV');
+pinturaV.addEventListener("click", () => {
+  const options = {
+    imageUrl: '../images/13-alfredo-arcos/Pintura1-min-vista.jpg',
+    imageHeight: "auto",
+    html: 
+          '<div class="modalPintura">'+
+          ' <div class="uno">'+
+          '   <TABLE class="ficha">'+
+          '     <TR><TH>Artista:</TH>'+
+          '       <TD>Alfredo Arcos</TD> '+
+          '     <TR><TH>Fragmentaciones:</TH>'+
+          '       <TD>Ninguna</TD> '+
+          '     <TR><TH>Título:</TH>'+
+          '       <TD>Sin Título</TD> '+
+          '     <TR><TH>Técnica:</TH>'+
+          '       <TD>Óleo sobre tela</TD> '+
+          '     <TR><TH>Medidas:</TH>'+
+          '       <TD>65x100cm</TD> '+
+          '   </TABLE>'+
+          ' </div>'+
+          ' <div class="dos">'+
+          '   <TABLE class="descripcion">'+
+          '     <TR>'+
+          '       <TH>Descripción:</TH>'+
+          '     </TR>'+
+          '     <TR>'+
+          '       <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
+          '     </TR>'+
+          '   </TABLE>'+
+          ' </div>'+
+          '</div>',
+    confirmButtonText: "Cerrar",
+    width:"95%",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
     }
   };
   Swal.fire(options);
