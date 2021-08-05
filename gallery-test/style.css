@@ -39,16 +39,17 @@ img {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1;
   font-weight: 800;
   margin-bottom: 1rem;
   position: absolute;
-  top: 10vw;
+  top: 6vw;
   left: 10vw;
   z-index: 4;
   overflow-wrap: break-word;
   hyphens: auto;
+  text-align: justify;
 }
 @media (max-width: 768px) {
   h1 {
@@ -71,13 +72,45 @@ h2 {
   color: var(--text-color);
 }
 
+.texto {
+  margin-top: 0%;
+  /* font-size: large; */
+  font-size: 20px;
+  color: black;
+  text-align:justify;
+  /* margin-left: 15% ;
+  margin-right: 15%; */
+  font-family:  Helvetica;
+  
+}
+.imagen__index{
+  width: 100%;
+  height: 500px;
+  margin-top: 15px;
+  margin-left: -150%;
+  /* border-style: dotted ; */
+  background-size: cover;
+}
+.imagen__logo45{
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 50%;
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+ 
+  /* border-style: dotted ; */
+ 
+ background-image: url("../images/45\ Aniversario\ FES\ Aragón\ \(1\).svg");
+}
+
 
 .horizontal-scroll {
   height: 100vh;
   overflow: hidden;
   display: flex;
   /* left: 0; */
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color: violet;
   position: relative;
 }
@@ -88,7 +121,7 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   padding: 50px 10vw;
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color: yellow;
   position: relative;
 }
@@ -101,7 +134,7 @@ h2 {
   border-color:  white;
 }
 .contenedor__galeria2{
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color:  rgb(18, 239, 255);
   position: absolute;
   /* white-space:nowrap;    */
@@ -116,10 +149,12 @@ h2 {
 
 .inicio {
   position: absolute;
-  bottom: 10vw;
+  top: 30%;
+  /* bottom: 10vw; */
   right: 10vw;
-  width: 200px;
+  width: 400px;
   line-height: 1.5;
+  text-align: justify;
 }
 .min__height{
   height: 50vh;
@@ -205,6 +240,10 @@ button:active {
   font-size: 16px;
   font-family: 'proxima nova', 'open sans', 'Helvetica', sans-serif;
 } */
+a{
+  text-decoration: none;
+  color: black;
+}
 .Marquee {
   /* background: linear-gradient(-135deg, #ffffff, #eac5ff); */
   background-color: transparent;
@@ -212,7 +251,7 @@ button:active {
   box-sizing: border-box;
   padding: 1em;
   color: rgb(0, 0, 0);
-  font-weight: 200;
+  font: Helvetica   ;  /* font-weight: 200; */
   display: flex;
   align-items: center;
   overflow: hidden;
