@@ -1,3 +1,9 @@
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
 :root {
   --text-color: #111;
   --bg-color: #b9b3a9;
@@ -33,16 +39,17 @@ img {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1;
   font-weight: 800;
   margin-bottom: 1rem;
   position: absolute;
-  top: 10vw;
+  top: 6vw;
   left: 10vw;
   z-index: 4;
   overflow-wrap: break-word;
   hyphens: auto;
+  text-align: justify;
 }
 @media (max-width: 768px) {
   h1 {
@@ -65,15 +72,47 @@ h2 {
   color: var(--text-color);
 }
 
-* {
-  box-sizing: border-box;
+.texto {
+  margin-top: 0%;
+  /* font-size: large; */
+  font-size: 20px;
+  color: black;
+  text-align:justify;
+  /* margin-left: 15% ;
+  margin-right: 15%; */
+  font-family:  Helvetica;
+  
 }
+.imagen__index{
+  width: 100%;
+  height: 500px;
+  margin-top: 15px;
+  margin-left: -150%;
+  /* border-style: dotted ; */
+  background-size: cover;
+}
+.imagen__logo45{
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 50%;
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+ 
+  /* border-style: dotted ; */
+ 
+ background-image: url("../images/45\ Aniversario\ FES\ Aragón\ \(1\).svg");
+}
+
 
 .horizontal-scroll {
   height: 100vh;
   overflow: hidden;
   display: flex;
-  left: 0;
+  /* left: 0; */
+  /* border-style: dotted; */
+  border-color: violet;
+  position: relative;
 }
 
 .pin-wrap {
@@ -82,18 +121,40 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   padding: 50px 10vw;
+  /* border-style: dotted; */
+  border-color: yellow;
+  position: relative;
 }
 .pin-wrap > * {
   min-width: 10vw;
   /* padding: 0 5vw; */
 }
+.contenedor__galeria{
+  /* border-style: dotted; */
+  border-color:  white;
+}
+.contenedor__galeria2{
+  /* border-style: dotted; */
+  border-color:  rgb(18, 239, 255);
+  position: absolute;
+  /* white-space:nowrap;    */
+  /* background-color: Green; */
+  top: 85%;
+  left: 0px;
+  
+ 
+ 
+
+}
 
 .inicio {
   position: absolute;
-  bottom: 10vw;
+  top: 30%;
+  /* bottom: 10vw; */
   right: 10vw;
-  width: 200px;
+  width: 400px;
   line-height: 1.5;
+  text-align: justify;
 }
 .min__height{
   height: 50vh;
@@ -102,7 +163,7 @@ h2 {
 }
 .image {
   position: relative;
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color: chartreuse;
   
 }
@@ -145,7 +206,7 @@ text-stroke: 1spx #000000b0;
 text-fill-color: transparent;
   /* display: block; */
 
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color: rgb(0, 0, 0);
   
   
@@ -168,29 +229,36 @@ button:active {
   transform: translatey(1px);
 }
 
-body {
-  /* height: 100vh;
+
+/* body {
+  height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #fff;
   font-size: 16px;
-  font-family: 'proxima nova', 'open sans', 'Helvetica', sans-serif; */
+  font-family: 'proxima nova', 'open sans', 'Helvetica', sans-serif;
+} */
+a{
+  text-decoration: none;
+  color: black;
 }
 .Marquee {
-  background: linear-gradient(-135deg, #ffffff, #eac5ff);
-  width: 85vw;
+  /* background: linear-gradient(-135deg, #ffffff, #eac5ff); */
+  background-color: transparent;
+  width: 500vw;
   box-sizing: border-box;
   padding: 1em;
   color: rgb(0, 0, 0);
-  font-weight: 200;
+  font: Helvetica   ;  /* font-weight: 200; */
   display: flex;
   align-items: center;
   overflow: hidden;
+  
 }
 .Marquee-content {
-  display: flex;
+  display: inline-block;
   animation: marquee 10s linear infinite running;
 }
 .Marquee-content:hover {
@@ -200,14 +268,17 @@ body {
   width: 200px;
   margin: 0 0.5em;
   padding: 0.5em;
-  background: rgba(250, 84, 84, 0.1);
+  /* background: rgba(250, 84, 84, 0.1); */
+  background-color: transparent;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
 }
 .Marquee-tag:hover {
-  background: rgb(212, 30, 30);
+  /* background: rgb(212, 30, 30); */
+  background-color: rgba(255, 255, 255, 0.103);
+  color: #fff;
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -216,7 +287,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
 @-webkit-keyframes marquee {
@@ -224,7 +295,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
 @-o-keyframes marquee {
@@ -232,7 +303,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
 @keyframes marquee {
@@ -240,7 +311,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
 
