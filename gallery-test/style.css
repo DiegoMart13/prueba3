@@ -130,7 +130,7 @@ h2 {
   /* padding: 0 5vw; */
 }
 .contenedor__galeria{
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color:  white;
 }
 .contenedor__galeria2{
@@ -163,7 +163,7 @@ h2 {
 }
 .image {
   position: relative;
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color: chartreuse;
   
 }
@@ -206,7 +206,7 @@ text-stroke: 1spx #000000b0;
 text-fill-color: transparent;
   /* display: block; */
 
-  border-style: dotted;
+  /* border-style: dotted; */
   border-color: rgb(0, 0, 0);
   
   
