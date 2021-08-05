@@ -104,8 +104,8 @@ h2 {
   border-style: dotted;
   border-color:  rgb(18, 239, 255);
   position: absolute;
-  
-  background-color: Green;
+  /* white-space:nowrap;    */
+  /* background-color: Green; */
   top: 85%;
   left: 0px;
   
@@ -206,8 +206,9 @@ button:active {
   font-family: 'proxima nova', 'open sans', 'Helvetica', sans-serif;
 } */
 .Marquee {
-  background: linear-gradient(-135deg, #ffffff, #eac5ff);
-  width: auto;
+  /* background: linear-gradient(-135deg, #ffffff, #eac5ff); */
+  background-color: transparent;
+  width: 500vw;
   box-sizing: border-box;
   padding: 1em;
   color: rgb(0, 0, 0);
@@ -215,9 +216,10 @@ button:active {
   display: flex;
   align-items: center;
   overflow: hidden;
+  
 }
 .Marquee-content {
-  display: flex;
+  display: inline-block;
   animation: marquee 10s linear infinite running;
 }
 .Marquee-content:hover {
@@ -227,14 +229,17 @@ button:active {
   width: 200px;
   margin: 0 0.5em;
   padding: 0.5em;
-  background: rgba(250, 84, 84, 0.1);
+  /* background: rgba(250, 84, 84, 0.1); */
+  background-color: transparent;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
 }
 .Marquee-tag:hover {
-  background: rgb(212, 30, 30);
+  /* background: rgb(212, 30, 30); */
+  background-color: rgba(255, 255, 255, 0.103);
+  color: #fff;
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -243,7 +248,7 @@ button:active {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
 @-webkit-keyframes marquee {
@@ -251,7 +256,7 @@ button:active {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
 @-o-keyframes marquee {
@@ -259,7 +264,7 @@ button:active {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
 @keyframes marquee {
@@ -267,9 +272,13 @@ button:active {
     transform: translateX(0);
   }
   100% {
-    transform: translate(-50%);
+    transform: translate(-20%);
   }
 }
+
+
+
+
 
 .modalPintura{
   display: grid;
