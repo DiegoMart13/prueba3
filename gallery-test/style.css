@@ -244,18 +244,31 @@ body {
   }
 }
 
-.modalPintura{
-  display: grid;
+
+.pintura{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
 }
 
-.uno{
-  grid-column: 1;
-  grid-row: 1 / 5;
+.textoPintura{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap:wrap-reverse;
+  align-content: space-around;
 }
 
-.dos{
-  grid-column: 2 / 4;
-  grid-row: 1 / 5;
+.ficha{
+  
+  font-size:80%;
+  font-family: Helvetica;
+}
+
+.descripcion{
+  
+  font-size:110%;
+  font-family: Helvetica;
 }
 
 .ficha th, td{

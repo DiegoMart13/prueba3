@@ -116,33 +116,37 @@ button.addEventListener("click", () => {
 const pinturaH = document.querySelector('.pinturaH');
 pinturaH.addEventListener("click", () => {
   const options = {
-    imageUrl: '../images/2-LazaroGalicia/Pintura 2-min-vista.jpg',
-    imageHeight: "auto",
+
     html: 
           '<div class="modalPintura">'+
-          ' <div class="uno">'+
-          '   <TABLE class="ficha">'+
-          '     <TR><TH>Artista:</TH>'+
-          '       <TD>Alfredo Arcos</TD> '+
-          '     <TR><TH>Fragmentaciones:</TH>'+
-          '       <TD>Ninguna</TD> '+
-          '     <TR><TH>Título:</TH>'+
-          '       <TD>Sin Título</TD> '+
-          '     <TR><TH>Técnica:</TH>'+
-          '       <TD>Óleo sobre tela</TD> '+
-          '     <TR><TH>Medidas:</TH>'+
-          '       <TD>65x100cm</TD> '+
-          '   </TABLE>'+
+          ' <div class="pintura">'+
+          '   <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="dos">'+
-          '   <TABLE class="descripcion">'+
-          '     <TR>'+
-          '       <TH>Descripción:</TH>'+
-          '     </TR>'+
-          '     <TR>'+
-          '       <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
-          '     </TR>'+
-          '   </TABLE>'+
+          ' <div class="textoPintura">'+
+          '   <div class="ficha">'+
+          '     <TABLE >'+
+          '       <TR><TH>Artista:</TH>'+
+          '         <TD>Alfredo Arcos</TD> '+
+          '       <TR><TH>Fragmentaciones:</TH>'+
+          '         <TD>Ninguna</TD> '+
+          '       <TR><TH>Título:</TH>'+
+          '         <TD>Sin Título</TD> '+
+          '       <TR><TH>Técnica:</TH>'+
+          '         <TD>Óleo sobre tela</TD> '+
+          '       <TR><TH>Medidas:</TH>'+
+          '         <TD>65x100cm</TD> '+
+          '     </TABLE>'+
+          '   </div>'+
+          '   <div class="descripcion">'+
+          '     <TABLE>'+
+          '       <TR>'+
+          '         <TH>Descripción:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '   </div>'+  
           ' </div>'+
           '</div>',
     confirmButtonText: "Cerrar",
@@ -161,33 +165,36 @@ pinturaH.addEventListener("click", () => {
 const pinturaV = document.querySelector('.pinturaV');
 pinturaV.addEventListener("click", () => {
   const options = {
-    imageUrl: '../images/13-alfredo-arcos/Pintura1-min-vista.jpg',
-    imageHeight: "auto",
     html: 
           '<div class="modalPintura">'+
-          ' <div class="uno">'+
-          '   <TABLE class="ficha">'+
-          '     <TR><TH>Artista:</TH>'+
-          '       <TD>Alfredo Arcos</TD> '+
-          '     <TR><TH>Fragmentaciones:</TH>'+
-          '       <TD>Ninguna</TD> '+
-          '     <TR><TH>Título:</TH>'+
-          '       <TD>Sin Título</TD> '+
-          '     <TR><TH>Técnica:</TH>'+
-          '       <TD>Óleo sobre tela</TD> '+
-          '     <TR><TH>Medidas:</TH>'+
-          '       <TD>65x100cm</TD> '+
-          '   </TABLE>'+
+          ' <div class="pintura">'+
+          '   <img src="../images/13-alfredo-arcos/Pintura1-min-vista.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="dos">'+
-          '   <TABLE class="descripcion">'+
-          '     <TR>'+
-          '       <TH>Descripción:</TH>'+
-          '     </TR>'+
-          '     <TR>'+
-          '       <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
-          '     </TR>'+
-          '   </TABLE>'+
+          ' <div class="textoPintura">'+
+          '   <div class="ficha">'+
+          '     <TABLE >'+
+          '       <TR><TH>Artista:</TH>'+
+          '         <TD>Alfredo Arcos</TD> '+
+          '       <TR><TH>Fragmentaciones:</TH>'+
+          '         <TD>Ninguna</TD> '+
+          '       <TR><TH>Título:</TH>'+
+          '         <TD>Sin Título</TD> '+
+          '       <TR><TH>Técnica:</TH>'+
+          '         <TD>Óleo sobre tela</TD> '+
+          '       <TR><TH>Medidas:</TH>'+
+          '         <TD>65x100cm</TD> '+
+          '     </TABLE>'+
+          '   </div>'+
+          '   <div class="descripcion">'+
+          '     <TABLE>'+
+          '       <TR>'+
+          '         <TH>Descripción:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '   </div>'+  
           ' </div>'+
           '</div>',
     confirmButtonText: "Cerrar",
