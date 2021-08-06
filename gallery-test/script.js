@@ -116,7 +116,7 @@ button.addEventListener("click", () => {
 const pinturaH = document.querySelector('.pinturaH');
 pinturaH.addEventListener("click", () => {
   const options = {
-
+    background: "#fff8",
     html: 
           '<div class="modalPintura">'+
           ' <div class="pintura">'+
@@ -161,6 +161,56 @@ pinturaH.addEventListener("click", () => {
   Swal.fire(options);
 });
 
+const pinturaF = document.querySelector('.pinturaF');
+pinturaF.addEventListener("click", () => {
+  const options = {
+    background: "#fff8",
+    html: 
+          '<div class="modalPintura">'+
+          ' <div class="pintura">'+
+          '   <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="fragPintura">'+
+          ' <div class="textoPintura">'+
+          '   <div class="ficha">'+
+          '     <TABLE >'+
+          '       <TR><TH>Artista:</TH>'+
+          '         <TD>Alfredo Arcos</TD> '+
+          '       <TR><TH>Fragmentaciones:</TH>'+
+          '         <TD>Ninguna</TD> '+
+          '       <TR><TH>Título:</TH>'+
+          '         <TD>Sin Título</TD> '+
+          '       <TR><TH>Técnica:</TH>'+
+          '         <TD>Óleo sobre tela</TD> '+
+          '       <TR><TH>Medidas:</TH>'+
+          '         <TD>65x100cm</TD> '+
+          '     </TABLE>'+
+          '   </div>'+
+          '   <div class="descripcion">'+
+          '     <TABLE>'+
+          '       <TR>'+
+          '         <TH>Descripción:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '   </div>'+  
+          ' </div>'+
+          '<img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt="" ></img>'+
+          '</div>'+
+          '</div>',
+    confirmButtonText: "Cerrar",
+    width:"95%",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
 
 const pinturaV = document.querySelector('.pinturaV');
 pinturaV.addEventListener("click", () => {

@@ -494,15 +494,17 @@ a{
 .pintura{
   display: flex;
   flex-direction: row;
-  justify-content: center; 
+  justify-content: center;
+  
 }
 
 .textoPintura{
   display: flex;
-  flex-direction: row;
+  flex-direction:column-reverse;
   justify-content: space-around; 
   flex-wrap:wrap-reverse;
   align-content: space-around;
+  background-color: #FFF; 
 }
 
 .ficha{
@@ -523,4 +525,16 @@ a{
 
 .descripcion th, td{
   text-align: left;
+}
+
+.fragPintura{
+  background-color: #FFF; 
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around; 
+  flex-wrap:wrap;
+  align-items: center;
+}
+.fragPintura img{
+  height: 100px;
 }
