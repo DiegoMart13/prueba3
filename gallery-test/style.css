@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: termina, sans-serif;
+  font-family: Helvetica;
   color: var(--text-color);
   background: var(--bg-color);
   transition: 0.3s ease-out;
@@ -24,12 +24,12 @@ section:not(.horizontal-scroll) {
   min-height: 100vh;
   width: 100%;
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 2rem;
-  padding: 50px 10vw;
-  margin: auto;
-  place-items: center;
+  display: grid; /*SCORLL SIN FONDO*/
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  /* grid-gap: 2rem; */
+  /* padding: 50px 10vw; */
+  /* margin: auto; */
+  /* place-items: center; */
 }
 
 img {
@@ -51,9 +51,18 @@ h1 {
   hyphens: auto;
   text-align: justify;
 }
-@media (max-width: 768px) {
+ 
+@media (max-width: 706px) {
   h1 {
     font-size: 16vw;
+  }
+   
+  .portadaimg{
+    margin-top: 0px;
+   
+  }
+  .imagen__logo45{
+    padding-right: -100px;
   }
 }
 h1 span {
@@ -66,43 +75,33 @@ h2 {
 }
 
 .credit {
-  font-family: Termina, sans-serif;
+  font-family: Helvetica;
 }
 .credit a {
   color: var(--text-color);
 }
+ 
+ 
+/* .presentacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.texto {
-  margin-top: 0%;
-  /* font-size: large; */
+  font-family: Helvetica;
   font-size: 20px;
-  color: black;
-  text-align:justify;
-  /* margin-left: 15% ;
-  margin-right: 15%; */
-  font-family:  Helvetica;
+  text-align: justify;
+}
+.presentacioni{
   
-}
-.imagen__index{
-  width: 100%;
-  height: 500px;
-  margin-top: 15px;
-  margin-left: -150%;
-  /* border-style: dotted ; */
-  background-size: cover;
-}
-.imagen__logo45{
-  position: absolute;
-  margin-top: 500px;
-  margin-left: 50%;
-  width: 200px;
-  height: 100px;
-  background-repeat: no-repeat;
+  border-style: dotted;
+  border-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
  
-  /* border-style: dotted ; */
  
- background-image: url("../images/45\ Aniversario\ FES\ Aragón\ \(1\).svg");
-}
+ 
 .containerxd {
   margin: 30px auto;
   width: 600px;
@@ -127,16 +126,17 @@ h2 {
   background: rgba(255, 255, 255, 0);
   transition: 0.5s
 }
+ 
 
 .text-box h1 {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 50%;
-  left: 75%;
+  top: 90%;
+  left: 55%;
   width: 100%;
   color: #FFF;
-  font-family: arial;
+  font-family: Helvetica;
   transform: translateX(-50%) translateY(-50%);
   font-size:2rem;
 }
@@ -149,10 +149,16 @@ h2 {
   left: 112%;
   width: 100%;
   color: #FFF;
-  font-family: arial;
+  font-family: Helvetica;
   transform: translateX(-50%) translateY(-50%);
 }
  
+.material-icons{
+  margin-left: 85%;
+}
+.material-icons:hover{
+  color: red;
+}
 
 
 .image-box:hover .text-box {
@@ -206,15 +212,7 @@ h2 {
 
 }
 
-.inicio {
-  position: absolute;
-  top: 30%;
-  /* bottom: 10vw; */
-  right: 10vw;
-  width: 400px;
-  line-height: 1.5;
-  text-align: justify;
-}
+ 
 .min__height{
   height: 50vh;
 
@@ -268,8 +266,124 @@ text-fill-color: transparent;
   border-style: dotted;
   border-color: rgb(0, 0, 0);
   
+/* inicio  */
+
+}
+.frase{
+   font-size: 15px;
+   font-family:  Helvetica ;
+   text-align: justify;
+   border-style: dotted;
+   border-color: white;
+   width: 400px;
+  
+ 
+ margin-right: 50px;
+
+}
+imagen__index2{
+  margin-top: 100px;
+  width: 35%;
+  margin-left: 30%;
+}
+.imagen__logo45{
+  margin-top: 100px;
+  max-width: 50em;
+  max-height: 20em;
+  margin-left: 40%;    
+}
+.titulo__expo{
+  font-size: 45px;
+  margin-top: 50px;
+  border-radius: 3px;
+  /* background-color:red; */
+  text-align: center; 
+  color: var(--white);  
   
 }
+.text-block-inicio{
+  font-size: 20px;
+  color:var(--white);
+  text-align:justify;
+  margin-left: 15% ;
+  margin-right: 30%;
+  font-family: Helvetica, ;
+}
+.text-block{
+  font-size: 20px;
+  color:var(--white);
+  text-align:justify;
+  margin-left: 10%;
+  margin-right: 10%;
+   
+  font-family: Helvetica, ;
+}
+/* boton leer mas */
+.text {
+  
+  /* font-size: large; */
+  font-size: 20px;
+  color:var(--white);
+  text-align:justify;
+  margin-left: 15% ;
+  margin-right: 15%;
+  font-family:  Helvetica;
+  
+}
+.moreText {
+  display: none;
+  
+}
+.read-more-btn {
+   
+  padding:10px;
+ background:
+  linear-gradient(-90deg,currentColor 50%,#0000 0) 0 0,
+  linear-gradient(  0deg,currentColor 50%,#0000 0) 0 0,
+  linear-gradient(currentColor 0 0) 100% 100%,
+  linear-gradient(currentColor 0 0) 100% 100%;
+background-size: 200% 3px,3px 200%,3px 0%,0% 3px; 
+background-repeat:no-repeat;
+transition: .3s,background-size .3s .3s;
+border: 0px;
+position:relative;
+  top:50%; 
+  left:50%;
+  font-size: 25px;
+  color: var(--orange2);
+
+}
+.read-more-btn:hover{
+ 
+ background-position: 100% 0,0 100%,100% 0,0 100%;
+background-size: 200% 3px,3px 200%,3px 100%,100% 3px; 
+transition: .3s,background-position .3s .3s;
+}
+.text.show-more .moreText {
+  display: inline;
+}
+.text.show-more .dots {
+  display: none;
+}
+/* fin boton leer mas */
+
+/* BOTONES SECCION ARTISTAS */
+/* quita el punto de la lista */
+
+
+
+
+ 
+
+/*  */
+/*   */
+/* */
+ 
+
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap");
 
  
@@ -310,10 +424,11 @@ a{
   box-sizing: border-box;
   padding: 1em;
   color: rgb(0, 0, 0);
-  font: Helvetica   ;  /* font-weight: 200; */
+  /* font-weight: 200; */
   display: flex;
   align-items: center;
   overflow: hidden;
+  font-family: Helvetica;
   
 }
 .Marquee-content {
@@ -340,7 +455,8 @@ a{
   color: #fff;
   transform: scale(1.1);
   cursor: pointer;
-}
+ }
+ /*
 @-moz-keyframes marquee {
   0% {
     transform: translateX(0);
@@ -372,7 +488,7 @@ a{
   100% {
     transform: translate(-20%);
   }
-}
+} */
 
 
 .pintura{
