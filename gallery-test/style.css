@@ -135,13 +135,30 @@ h2 {
   top: 90%;
   left: 55%;
   width: 100%;
-  color: #FFF;
+  color: rgb(255, 0, 0);
   font-family: Helvetica;
   transform: translateX(-50%) translateY(-50%);
   font-size:2rem;
+
+  padding-bottom: 8px;
+  background:
+    linear-gradient(#000000 0 0) 0    100%,
+    linear-gradient(#000000 0 0) 100% 100%;
+  background-size: 0% 4px;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  transition: .5s,background-position 0s .5s;
+
+
+
+}
+.text-box h1:hover{
+  color: yellow;
+  background-size: 80% 4px;
+  background-position: 100% 100%,0 100%;
 }
 
-.text-box p {
+/* .text-box p {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -152,12 +169,16 @@ h2 {
   font-family: Helvetica;
   transform: translateX(-50%) translateY(-50%);
 }
- 
-.material-icons{
+  */
+.text-box a i {
   margin-left: 85%;
+  font-size:60px ;
+  color: coral;
+ 
 }
-.material-icons:hover{
-  color: red;
+ 
+.text-box a i:hover{
+  color: red ; 
 }
 
 
@@ -489,7 +510,7 @@ a{
     transform: translate(-20%);
   }
 } */
-
+ 
 
 .pintura{
   display: flex;
