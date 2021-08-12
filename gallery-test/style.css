@@ -153,7 +153,7 @@
   }
   .services__img{
     margin-top: 10px;
-    padding-left: 20%;
+    /* padding-left: 20%; */
      
   
   }
@@ -277,7 +277,7 @@ h2 {
 .text-box {
   position: absolute;
   top: 0;
-  left: -100%;
+  left: -200%;
   height: 100%;
   width: 100%;
   background: rgba(255, 255, 255, 0);
@@ -292,10 +292,10 @@ h2 {
   top: 90%;
   left: 55%;
   width: 100%;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: Helvetica;
   transform: translateX(-50%) translateY(-50%);
-  font-size:2rem;
+  font-size:1.5rem;
 
   padding-bottom: 8px;
   background:
@@ -310,7 +310,7 @@ h2 {
 
 }
 .text-box h1:hover{
-  color: yellow;
+  color: rgb(0, 0, 0);
   background-size: 80% 4px;
   background-position: 100% 100%,0 100%;
 }
@@ -330,12 +330,12 @@ h2 {
 .text-box a i {
   margin-left: 85%;
   font-size:60px ;
-  color: coral;
+  color: rgb(255, 255, 255);
  
 }
  
 .text-box a i:hover{
-  color: red ; 
+  color: rgb(0, 0, 0) ; 
 }
 
 
@@ -435,8 +435,8 @@ text-fill-color: transparent;
    font-size: 15px;
    font-family:  Helvetica ;
    text-align: justify;
-   border-style: dotted;
-   border-color: white;
+   /* border-style: dotted;
+   border-color: white; */
    width: 400px;
   
  
