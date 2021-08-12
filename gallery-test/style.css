@@ -423,50 +423,90 @@ a{
   text-decoration: none;
   color: black;
 }
-.pintura{
+
+.modalH{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pinturaM{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.textoMH{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color: white;
+}
+
+
+
+.modalV{
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   justify-content: center;
-  
+  flex-wrap: wrap;
 }
 
-.textoPintura{
+.textoMV{
   display: flex;
-  flex-direction:column-reverse;
-  justify-content: space-around; 
-  flex-wrap:wrap-reverse;
-  align-content: space-around;
-  background-color: #FFF; 
+  flex-direction:column;
+  justify-content: center;
+  background-color: white;
+  flex-basis: 60%;
+}
+.textoFMV{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color: white;
+  flex-basis: 100%;
 }
 
-.ficha{
-  
-  font-size:80%;
+.FT{
+  width: 100%;
+  font-size:75%;
   font-family: Helvetica;
+  padding: 10px;
 }
 
-.descripcion{
-  
+.DES{
+  width: 100%;
   font-size:110%;
   font-family: Helvetica;
+  padding: 10px;
 }
 
-.ficha th, td{
+.FT tr , .DES tr{
   text-align: left;
 }
 
-.descripcion th, td{
-  text-align: left;
-}
-
-.fragPintura{
-  background-color: #FFF; 
+.fragmentoH{
+  background-color:white; 
   display: flex;
-  flex-direction:row;
-  justify-content: space-around; 
+  flex-direction:row; 
   flex-wrap:wrap;
   align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
+.fragmentoV{
+  background-color:white; 
+  display: flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-basis: 60%;
+}
+
+
 .fragPintura img{
   height: 100px;
 }

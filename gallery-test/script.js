@@ -116,29 +116,13 @@ button.addEventListener("click", () => {
 const pinturaH = document.querySelector('.pinturaH');
 pinturaH.addEventListener("click", () => {
   const options = {
-    background: "#fff8",
     html: 
-          '<div class="modalPintura">'+
-          ' <div class="pintura">'+
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoPintura">'+
-          '   <div class="ficha">'+
-          '     <TABLE >'+
-          '       <TR><TH>Artista:</TH>'+
-          '         <TD>Alfredo Arcos</TD> '+
-          '       <TR><TH>Fragmentaciones:</TH>'+
-          '         <TD>Ninguna</TD> '+
-          '       <TR><TH>Título:</TH>'+
-          '         <TD>Sin Título</TD> '+
-          '       <TR><TH>Técnica:</TH>'+
-          '         <TD>Óleo sobre tela</TD> '+
-          '       <TR><TH>Medidas:</TH>'+
-          '         <TD>65x100cm</TD> '+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="descripcion">'+
-          '     <TABLE>'+
+          ' <div class="textoMH">'+
+          '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
           '       </TR>'+
@@ -146,11 +130,32 @@ pinturaH.addEventListener("click", () => {
           '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          '   </div>'+  
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Alfredo Arcos</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Óleo sobre tela</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  65x100cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
           ' </div>'+
           '</div>',
-    confirmButtonText: "Cerrar",
+    showCloseButton: true,
+    showConfirmButton: false,
     width:"95%",
+    background: "#fff8",
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -161,33 +166,17 @@ pinturaH.addEventListener("click", () => {
   Swal.fire(options);
 });
 
-const pinturaF = document.querySelector('.pinturaF');
-pinturaF.addEventListener("click", () => {
+const pinturaHF = document.querySelector('.pinturaHF');
+pinturaHF.addEventListener("click", () => {
   const options = {
-    background: "#fff8",
     html: 
-          '<div class="modalPintura">'+
-          ' <div class="pintura">'+
-          '   <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/2-LazaroGalicia/1 fragmentacion de pintura2-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="fragPintura">'+
-          ' <div class="textoPintura">'+
-          '   <div class="ficha">'+
-          '     <TABLE >'+
-          '       <TR><TH>Artista:</TH>'+
-          '         <TD>Alfredo Arcos</TD> '+
-          '       <TR><TH>Fragmentaciones:</TH>'+
-          '         <TD>Ninguna</TD> '+
-          '       <TR><TH>Título:</TH>'+
-          '         <TD>Sin Título</TD> '+
-          '       <TR><TH>Técnica:</TH>'+
-          '         <TD>Óleo sobre tela</TD> '+
-          '       <TR><TH>Medidas:</TH>'+
-          '         <TD>65x100cm</TD> '+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="descripcion">'+
-          '     <TABLE>'+
+          ' <div class="fragmentoH">'+
+          '   <div class="textoMH">'+
+          '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
           '       </TR>'+
@@ -195,13 +184,36 @@ pinturaF.addEventListener("click", () => {
           '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          '   </div>'+  
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Alfredo Arcos</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Óleo sobre tela</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  65x100cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '   </div>'+
+          '   <div class="fragPintura">'+
+          '     <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
+          '   </div>'+
           ' </div>'+
-          '<img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt="" ></img>'+
-          '</div>'+
           '</div>',
-    confirmButtonText: "Cerrar",
+    showCloseButton: true,
+    showConfirmButton: false,
     width:"95%",
+    background: "#fff8",
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -216,27 +228,12 @@ const pinturaV = document.querySelector('.pinturaV');
 pinturaV.addEventListener("click", () => {
   const options = {
     html: 
-          '<div class="modalPintura">'+
-          ' <div class="pintura">'+
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
           '   <img src="../images/13-alfredo-arcos/Pintura1-min-vista.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoPintura">'+
-          '   <div class="ficha">'+
-          '     <TABLE >'+
-          '       <TR><TH>Artista:</TH>'+
-          '         <TD>Alfredo Arcos</TD> '+
-          '       <TR><TH>Fragmentaciones:</TH>'+
-          '         <TD>Ninguna</TD> '+
-          '       <TR><TH>Título:</TH>'+
-          '         <TD>Sin Título</TD> '+
-          '       <TR><TH>Técnica:</TH>'+
-          '         <TD>Óleo sobre tela</TD> '+
-          '       <TR><TH>Medidas:</TH>'+
-          '         <TD>65x100cm</TD> '+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="descripcion">'+
-          '     <TABLE>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
           '       </TR>'+
@@ -244,11 +241,90 @@ pinturaV.addEventListener("click", () => {
           '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          '   </div>'+  
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Alfredo Arcos</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Óleo sobre tela</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  65x100cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
           ' </div>'+
           '</div>',
-    confirmButtonText: "Cerrar",
+    showCloseButton: true,
+    showConfirmButton: false,
     width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+
+const pinturaVF = document.querySelector('.pinturaVF');
+pinturaVF.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/13-alfredo-arcos/Pintura1-min-vista.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="fragmentoV">'+
+          '   <div class="textoFMV">'+
+          '     <TABLE class="DES">'+
+          '       <TR>'+
+          '         <TH>Descripción:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Alfredo Arcos</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Óleo sobre tela</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  65x100cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '   </div>'+
+          '   <div class="fragPintura">'+
+          '     <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
+          '   </div>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
