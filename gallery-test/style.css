@@ -662,3 +662,7 @@ a{
 .fragPintura img{
   height: 100px;
 }
+
+.pinturaV, .pinturaH, .pinturaHF{
+  cursor: pointer;
+}
