@@ -1,4 +1,4 @@
-/*const menu = document.querySelector('#mobile-menu');
+const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 const navLogo = document.querySelector('#navbar__logo');
 const body = document.querySelector('body');
@@ -14,7 +14,41 @@ const mobileMenu = () => {
 };
 menu.addEventListener('click', mobileMenu);
 
-console.log("work");*/
+console.log("work");
+
+
+var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop,
+  isVisible = true;
+
+function show(){
+  if(!isVisible){
+    TweenLite.to(".navbar", 1, { y: "0%" }, 0);
+    isVisible = true;
+  }
+}
+
+function hide(){
+  if(isVisible){
+    TweenLite.to(".navbar", 1, { y: "-100%" }, 0);
+    isVisible = false;
+  }
+}
+
+function refresh() {
+  var newScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  if (newScrollTop > currentScrollTop) {
+    hide();
+  } else if (newScrollTop < currentScrollTop) {
+    show();
+  }
+  currentScrollTop = newScrollTop;
+}
+
+window.addEventListener("scroll", refresh, {
+  passive: true
+});
+refresh();
+
 
 
 
