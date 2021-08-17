@@ -661,9 +661,8 @@ a{
 
 
 .fragPintura img{
-  height: 100px;
+  height: 175px;
 }
-
-.pinturaV, .pinturaH, .pinturaHF{
+.material-icons{
   cursor: pointer;
 }
