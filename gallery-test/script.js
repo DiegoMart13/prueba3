@@ -451,41 +451,41 @@ pintura2.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/Pintura 2-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Proyecto de mural en Ciudad Neza</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Lázaro Galicia</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  3</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  90x120cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer:' <a class="textoMH">'+
+    '     <TABLE class="DES">'+
+    '       <TR>'+
+    '         <TH>Descripción:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Proyecto de mural en Ciudad Neza</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lázaro Galicia</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  3</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Óleo sobre tela</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  90x120cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </a>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -503,43 +503,43 @@ pintura2F1.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/1 fragmentacion de pintura2-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="fragmentoH">'+
-          '   <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Representa los primeros habitantes que llegaron a Ciudad Nezahualcóyotl, provenientes de diferentes estados de la República Mexicana.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Lázaro Galicia</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmento:  1/3</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura2-1.jpg" alt=""></img>'+  
-          '   </div>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer:' <a class="fragmentoH">'+
+    '   <div class="textoMH">'+
+    '     <TABLE class="DES">'+
+    '       <TR>'+
+    '         <TH>Descripción:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Representa los primeros habitantes que llegaron a Ciudad Nezahualcóyotl, provenientes de diferentes estados de la República Mexicana.</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lázaro Galicia</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmento:  1/3</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Óleo sobre tela</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '   </div>'+
+    '   <div class="fragPintura">'+
+    '     <img src="../images/fragmentos/Pintura2-1.jpg" alt=""></img>'+  
+    '   </div>'+
+    ' </a>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -557,43 +557,43 @@ pintura2F2.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/2 fragmentación de pintura2-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="fragmentoH">'+
-          '   <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Representa las avenidas Texcoco, Pantitlán, Chimalhuacán, Cuarta Avenida, y Bordo de Xochiaca que cruzan con la Av. López Mateos, Nezahualcóyotl, Riva palacio, Cuauhtémoc, y la Avenida 7.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Lázaro Galicia</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmento:  2/3</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura2-2.jpg" alt=""></img>'+  
-          '   </div>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer: ' <div class="fragmentoH">'+
+    '   <div class="textoMH">'+
+    '     <TABLE class="DES">'+
+    '       <TR>'+
+    '         <TH>Descripción:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Representa las avenidas Texcoco, Pantitlán, Chimalhuacán, Cuarta Avenida, y Bordo de Xochiaca que cruzan con la Av. López Mateos, Nezahualcóyotl, Riva palacio, Cuauhtémoc, y la Avenida 7.</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lázaro Galicia</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmento:  2/3</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Óleo sobre tela</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '   </div>'+
+    '   <div class="fragPintura">'+
+    '     <img src="../images/fragmentos/Pintura2-2.jpg" alt=""></img>'+  
+    '   </div>'+
+    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -611,43 +611,43 @@ pintura2F3.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/3 fragmentación de pintura3-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="fragmentoH">'+
-          '   <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Muestra la identidad que se generó en los primeros habitantes de la Ciudad ya consolidada.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Lázaro Galicia</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmento:  3/3</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos//Pintura2-3.jpg" alt=""></img>'+  
-          '   </div>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer:' <div class="fragmentoH">'+
+    '   <div class="textoMH">'+
+    '     <TABLE class="DES">'+
+    '       <TR>'+
+    '         <TH>Descripción:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Muestra la identidad que se generó en los primeros habitantes de la Ciudad ya consolidada.</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lázaro Galicia</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmento:  3/3</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Óleo sobre tela</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '   </div>'+
+    '   <div class="fragPintura">'+
+    '     <img src="../images/fragmentos//Pintura2-3.jpg" alt=""></img>'+  
+    '   </div>'+
+    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -665,7 +665,12 @@ pintura3.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/Pintura 3-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
           '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
@@ -694,12 +699,7 @@ pintura3.addEventListener("click", () => {
           '         <TD>Medidas:  120x120cm</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
+          ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -717,7 +717,12 @@ pintura4.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/Pintura 4-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
           '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
@@ -746,12 +751,7 @@ pintura4.addEventListener("click", () => {
           '         <TD>Medidas:  120x120cm</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
+          ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -769,41 +769,41 @@ pintura5.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/Pintura 5-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>La mujer dando un nuevo aliento a la ciudad frente al coyote de Sebastián, lo que representa en nuevo milenio que contrasta con los problemas sociales, se puede observar en el recolector de basura así como las aguas residuales.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Lázaro Galicia</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  120x120cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer:' <div class="textoMH">'+
+    '     <TABLE class="DES">'+
+    '       <TR>'+
+    '         <TH>Descripción:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>La mujer dando un nuevo aliento a la ciudad frente al coyote de Sebastián, lo que representa en nuevo milenio que contrasta con los problemas sociales, se puede observar en el recolector de basura así como las aguas residuales.</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lázaro Galicia</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  Ninguna</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Óleo sobre tela</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  120x120cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -821,7 +821,12 @@ pintura6.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/2-LazaroGalicia/Pintura 6-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
           '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
@@ -850,12 +855,7 @@ pintura6.addEventListener("click", () => {
           '         <TD>Medidas:  120x120cm</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
+          ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -873,7 +873,12 @@ pintura7.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/3-mauricio-vega/Pintura 7-min.JPG" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
           '     <TABLE class="FT">'+
           '       <TR>'+
           '         <TH>Ficha Técnica:</TH>'+
@@ -894,12 +899,7 @@ pintura7.addEventListener("click", () => {
           '         <TD>Medidas:  100x160cm</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
+          ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -917,7 +917,12 @@ pintura8.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/3-mauricio-vega/Pintura 8-min.JPG" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
           '     <TABLE class="FT">'+
           '       <TR>'+
           '         <TH>Ficha Técnica:</TH>'+
@@ -938,12 +943,7 @@ pintura8.addEventListener("click", () => {
           '         <TD>Medidas:  100x160cm</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
+          ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -961,41 +961,41 @@ pintura9.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/3-mauricio-vega/Tríptico completo-min.png" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Es una referencia a Ciudad Nezahualcóyotl, agua arriba y agua abajo, el cuerpo en movimiento y de dónde venimos.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Tríptico</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Mauricio Vega</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Acrílico sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  180x360cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer:' <div class="textoMH">'+
+    '     <TABLE class="DES">'+
+    '       <TR>'+
+    '         <TH>Descripción:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Es una referencia a Ciudad Nezahualcóyotl, agua arriba y agua abajo, el cuerpo en movimiento y de dónde venimos.</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Tríptico</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Mauricio Vega</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  Ninguna</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Acrílico sobre tela</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  180x360cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -1013,7 +1013,12 @@ pintura10.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/4-ismael-ponce/Pintura 10-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
           '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
@@ -1042,12 +1047,7 @@ pintura10.addEventListener("click", () => {
           '         <TD>Medidas:  60x90cm</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
+          ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -1065,41 +1065,41 @@ pintura11.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/4-ismael-ponce/Pintura 11-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Continuando con la misma técnica, en este cuadro se aprecian 3 mujeres lavando ropa en la parte central, acompañado en su extremo izquierdo por postes de luz y torres de alta tensión, en su lado derecho, lo que significa, un progreso, donde las cosas van a cambiar.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Serie de 3</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Ismael Ponce</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela y madera</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  60x90cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer:' <div class="textoMH">'+
+    '     <TABLE class="DES">'+
+    '       <TR>'+
+    '         <TH>Descripción:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Continuando con la misma técnica, en este cuadro se aprecian 3 mujeres lavando ropa en la parte central, acompañado en su extremo izquierdo por postes de luz y torres de alta tensión, en su lado derecho, lo que significa, un progreso, donde las cosas van a cambiar.</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Serie de 3</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Ismael Ponce</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  Ninguna</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Óleo sobre tela y madera</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  60x90cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -1117,7 +1117,12 @@ pintura12.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/4-ismael-ponce/Pintura 12-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
           '     <TABLE class="DES">'+
           '       <TR>'+
           '         <TH>Descripción:</TH>'+
@@ -1146,12 +1151,7 @@ pintura12.addEventListener("click", () => {
           '         <TD>Medidas:  60x90cm</TD>'+
           '       </TR>'+
           '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
+          ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -1169,33 +1169,33 @@ pintura13.addEventListener("click", () => {
           ' <div class="pinturaM">'+
           '   <img src="../images/5-juan-orozco-palmerin/Pintura 13-min.jpg" alt=""></img>'+  
           ' </div>'+
-          ' <div class="textoMH">'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Juan Orozco Palmerín</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  60x90cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
+    footer:' <div class="textoMH">'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Juan Orozco Palmerín</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  Ninguna</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Óleo sobre tela</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  60x90cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },

@@ -684,9 +684,13 @@ a{
   flex-basis: 60%;
 }
 
-
+.fragPintura{
+  display: flex;
+  justify-content: center;
+}
 .fragPintura img{
   height: 175px;
+  
 }
 .material-icons{
   cursor: pointer;
