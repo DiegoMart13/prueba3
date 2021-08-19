@@ -15,12 +15,19 @@
 }
 
 .centrado{
-  background-color: var(--red);
+  background-color: #0bb3ca;
   height: 100vh;
   width: 100vw;
    
   position: absolute;
   z-index: 2;
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
  
 }
 .hidden{
@@ -66,7 +73,7 @@
  
 
 .navbar{
-  background:#00245b;
+  background:#06606d;
   height: 60px;
   padding: 0.5rem calc((100vw - 1200px)/2);
   display: flex;
@@ -126,7 +133,7 @@
   z-index: 99;
   height: 100vh;
   font-size: 1.5rem;
-  background: var(--black);
+  background: #06606d;
 
 }
 
@@ -373,22 +380,22 @@ h2 {
   transform: translateX(-50%) translateY(-50%);
   font-size:1.5rem;
 
-  padding-bottom: 8px;
+  /* padding-bottom: 8px;
   background:
     linear-gradient(#000000 0 0) 0    100%,
     linear-gradient(#000000 0 0) 100% 100%;
   background-size: 0% 4px;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  transition: .5s,background-position 0s .5s;
+  transition: .5s,background-position 0s .5s; */
 
 
 
 }
 .text-box h1:hover{
   color: rgb(0, 0, 0);
-  background-size: 80% 4px;
-  background-position: 100% 100%,0 100%;
+  /* background-size: 80% 4px;
+  background-position: 100% 100%,0 100%; */
 }
 
 /* .text-box p {
@@ -564,6 +571,7 @@ text-fill-color: transparent;
   display: none;
   
 }
+
 .read-more-btn {
    
   padding:10px;
