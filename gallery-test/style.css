@@ -659,7 +659,7 @@ a{
   text-align: left;
 }
 
-.fragmentoH{
+.fragmentoH, .fragmentoV{
   background-color:white; 
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -669,20 +669,12 @@ a{
   padding: 20px;
 }
 @media screen and (max-width: 768px){
-  .fragmentoH{
+  .fragmentoH, .fragmentoV{
       grid-template-columns: 1fr;
   }
 }
-.fragmentoV{
-  background-color:white; 
-  display: flex;
-  flex-direction:row; 
-  flex-wrap:wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  flex-basis: 60%;
-}
+
+
 
 .fragPintura{
   display: flex;
