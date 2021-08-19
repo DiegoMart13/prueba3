@@ -1,7 +1,7 @@
 window.onload = function(){
  
   $('#onload').fadeOut();
-  $('body').removeClass('hidden');
+  $('body').addClass('hidden');
 }
 
 

@@ -15,7 +15,7 @@
 }
 
 .centrado{
-  background-color: var(--black);
+  background-color: var(--red);
   height: 100vh;
   width: 100vw;
    
@@ -24,7 +24,7 @@
  
 }
 .hidden{
-  overflow: hidden;
+  overflow: auto;
    
 }
 
@@ -98,6 +98,9 @@
   
 }
 @media screen and (max-width: 768px){
+  body{
+    -webkit-overflow-scrolling: touch;
+  }
   body.active{
       overflow-y: hidden;
       overflow-x: hidden;
