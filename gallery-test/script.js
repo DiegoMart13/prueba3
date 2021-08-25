@@ -150,19 +150,27 @@ window.addEventListener("load", function () {
   ScrollTrigger.refresh();
 });
 
-const button = document.querySelector("button");
-
-/** 
-Customize the options to change the content of modal or get exact code from github repositary
-**/
-
-button.addEventListener("click", () => {
+const verMas = document.querySelector(".verMas");
+verMas.addEventListener("click", () => {
   const options = {
-    title: "Modal",
-    icon: "info",
-    text: " Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L  of the printing and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. L and  ing industry.  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing ind ing industry. Lorem Ipsum  ing industry. Lorem Ipsum  ing industry. Lorem Ipsum ustry. Lorem Ipsum typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    showCloseButton: true,
+    html: 
+    '<p class="text" animate-text>'+
+    '  El lenguaje pictórico de la muestra permite que Ismael Ponce vaya más allá de su época y de las entrañas del tiempo rescate imágenes que pertenecen al espacio evolutivo de nuestros recuerdos y al devenir, siempre constante, del tiempo universal. <br> <br>'+
+    '  El maestro Juan Orozco Palmerín nos plantea, en su obra, la visión cálida y esperanzadora que acompañó a los fundadores de esta ciudad, creadores de lo imposible, verdaderos héroes de esta historia, cuya narrativa pertenece a una de las más grandes hazañas realizadas por el ser humano moderno.'+ 
+    '  Dueño de una paleta colorida, el maestro Martín Cuaya Urciaga, nos muestra el entramado comunitario de la ciudad, en pleno movimiento, lleno de vitalidad. Los símbolos de identidad que aparecen en su obra aseguran la renovación constante de una época de verdades humanas inextinguibles. En el extremo discursivo del neo-expresionismo, nos invita a realizar una reflexión profunda sobre la condición humana en el pasado cercano y en la actualidad. La fuerza expresiva y la calidad que caracterizan su obra lo convierten, de manera ineludible, en uno de los grandes referentes artísticos de nuestra comunidad. <br> <br>'+
+    '  El artista plástico Duany, nos muestra la solidaridad que emana de seres que sufren la pobreza y la desigualdad. Haciendo uso de un universo expresivo abstracto, exige del espectador una mirada que desentrañe la persistencia dinámica de un mundo sorprendente e inquietante. <br> <br>'+
+    '  La presente exposición rescata dos autorretratos de “Tacho”, pintor fundacional de nuestra comunidad. Su importancia artística radica en el hecho de que es considerado el primer pintor en realizar un mural en un espacio público de Ciudad Nezahualcóyotl. <br> <br>'+
+    '  El artista gráfico Alejandro Pérez Cruz participa en la muestra con algunos grabados que representan la estructura narrativa de un mundo que emerge de los sueños, de la profunda necesidad de recuperar, a partir del poder de la imagen, el sentido casi profético, de lo simbólico. <br> <br>'+
+    '  Miguel Ángel Rodríguez “Lupus”  nos muestra la experiencia innovadora de intentar una mirada múltiple del universo emocional y creativo que reside en el ser humano. Pablo Morán ofrece una pintura que recrea el esfuerzo titánico que realizaban los primeros pobladores de la ciudad, para romper la linealidad del tiempo y reconstruir el trabajo atemporal que surge de la necesidad y la marginación. Para finalizar, los artistas Rest López, Tren 77 ,  Chez Uno y Martín Cuaya Urciaga parten de  elementos figurativos cotidianos que sintetizan la experiencia de un caminar colectivo, cuyo origen nos recuerda la fortaleza de una comunidad en constante evolución. Ellos aportan las nuevas técnicas expresivas como son el uso del aerógrafo, el aerosol y el stencil. <br> <br>'+
+    '  Ciudad Nezahualcóyotl… una realidad olvidada para las nuevas generaciones, un reflejo poderoso habitado por recuerdos que emergieron de un sueño solidario y fundacional. Ciudad construida sobre la nostalgia inagotable de un lago que late en las páginas de un libro inmemorial. Ciudad Nezahualcóyotl, el primer camino a la verdad, a la luz, a la esperanza.'+
+    '</p>',
     confirmButtonText: "Ver menos",
-    width:"90%",
+    confirmButtonColor: '#f2a900',
+    width:"100%",
+    height:"100vh",
+    backdrop: true,
+    background: '#f2a900',
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
@@ -173,228 +181,6 @@ button.addEventListener("click", () => {
   Swal.fire(options);
 });
 
-
-/*const pinturaH = document.querySelector('.pinturaH');
-pinturaH.addEventListener("click", () => {
-  const options = {
-    html: 
-          '<div class="modalH">'+
-          ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
-          ' </div>'+
-          ' <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Alfredo Arcos</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  65x100cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
-    showClass: {
-      popup: 'animate__animated animate__zoomIn'
-    },
-    hideClass: {
-      popup: 'animate__animated animate__zoomOutDown'
-    }
-  };
-  Swal.fire(options);
-});
-
-const pinturaHF = document.querySelector('.pinturaHF');
-pinturaHF.addEventListener("click", () => {
-  const options = {
-    html: 
-          '<div class="modalH">'+
-          ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/1 fragmentacion de pintura2-min.jpg" alt=""></img>'+  
-          ' </div>'+
-          ' <div class="fragmentoH">'+
-          '   <div class="textoMH">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Alfredo Arcos</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  65x100cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="fragPintura">'+
-          '     <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
-          '   </div>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
-    showClass: {
-      popup: 'animate__animated animate__zoomIn'
-    },
-    hideClass: {
-      popup: 'animate__animated animate__zoomOutDown'
-    }
-  };
-  Swal.fire(options);
-});
-
-const pinturaV = document.querySelector('.pinturaV');
-pinturaV.addEventListener("click", () => {
-  const options = {
-    html: 
-          '<div class="modalV">'+
-          ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura1-min-vista.jpg" alt=""></img>'+  
-          ' </div>'+
-          ' <div class="textoMV">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Alfredo Arcos</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  65x100cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
-    showClass: {
-      popup: 'animate__animated animate__zoomIn'
-    },
-    hideClass: {
-      popup: 'animate__animated animate__zoomOutDown'
-    }
-  };
-  Swal.fire(options);
-});
-
-const pinturaVF = document.querySelector('.pinturaVF');
-pinturaVF.addEventListener("click", () => {
-  const options = {
-    html: 
-          '<div class="modalV">'+
-          ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura1-min-vista.jpg" alt=""></img>'+  
-          ' </div>'+
-          ' <div class="fragmentoV">'+
-          '   <div class="textoFMV">'+
-          '     <TABLE class="DES">'+
-          '       <TR>'+
-          '         <TH>Descripción:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '     <TABLE class="FT">'+
-          '       <TR>'+
-          '         <TH>Ficha Técnica:</TH>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Sin Título</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Artista:  Alfredo Arcos</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Fragmentaciones:  Ninguna</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Técnica:  Óleo sobre tela</TD>'+
-          '       </TR>'+
-          '       <TR>'+
-          '         <TD>Medidas:  65x100cm</TD>'+
-          '       </TR>'+
-          '     </TABLE>'+
-          '   </div>'+
-          '   <div class="fragPintura">'+
-          '     <img src="../images/2-LazaroGalicia/Pintura 2-min-vista.jpg" alt=""></img>'+  
-          '   </div>'+
-          ' </div>'+
-          '</div>',
-    showCloseButton: true,
-    showConfirmButton: false,
-    width:"95%",
-    background: "#fff8",
-    showClass: {
-      popup: 'animate__animated animate__zoomIn'
-    },
-    hideClass: {
-      popup: 'animate__animated animate__zoomOutDown'
-    }
-  };
-  Swal.fire(options);
-});*/
 
 //______MODALES CAROUSEL PASADO-ORIGEN_____________
 
@@ -2766,6 +2552,914 @@ pintura31.addEventListener("click", () => {
           '       </TR>'+
           '       <TR>'+
           '         <TD>Técnica:  Pluma sobre papel</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+//___________Carousel FUTURO-IDENTIDAD____________
+const pintura32 = document.querySelector('.pintura32');
+pintura32.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/8-cuaya-rest-tren77-chez/imagen completa-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+          '     <TABLE class="DES">'+
+          '       <TR>'+
+          '         <TH>Descripción:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Expresa los inicios del grafiti así como la música Ska, dentro de Ciudad Neza, que fue parte fundamental del desarrollo del grafiti a nivel nacional, se muestra el pasado, presente y futuro de éste tipo de expresión artística.</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artistas:  Cuaya, Rest, Tren 77 y Chez Uno</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  1</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grafiti</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  244x488cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura32F1 = document.querySelector('.pintura32F1');
+pintura32F1.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/8-cuaya-rest-tren77-chez/Fragmentación-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="fragmentoV">'+
+          '   <div class="textoFMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artistas:  Cuaya, Rest, Tren 77 y Chez Uno</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmento:  1/1</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grafiti</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '   </div>'+
+          '   <div class="fragPintura">'+
+          '     <img src="../images/fragmentos/imagen completa-1.jpg" alt="" ></img>'+  
+          '   </div>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura33 = document.querySelector('.pintura33');
+pintura33.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/12-lupus/Pintura 41-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Lupus</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  60x90cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura34 = document.querySelector('.pintura34');
+pintura34.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/12-lupus/Pintura 43-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Lupus</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  60x90cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura35 = document.querySelector('.pintura35');
+pintura35.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/12-lupus/Pintura 42-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lupus</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  Ninguna</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  120x120cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura36 = document.querySelector('.pintura36');
+pintura36.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/12-lupus/Pintura 44-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lupus</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  Ninguna</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  120x120cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura37 = document.querySelector('.pintura37');
+pintura37.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/12-lupus/Pintura 45-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+    '     <TABLE class="FT">'+
+    '       <TR>'+
+    '         <TH>Ficha Técnica:</TH>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Sin Título</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Artista:  Lupus</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Fragmentaciones:  Ninguna</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+    '       </TR>'+
+    '       <TR>'+
+    '         <TD>Medidas:  120x120cm</TD>'+
+    '       </TR>'+
+    '     </TABLE>'+
+    ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura38 = document.querySelector('.pintura38');
+pintura38.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 27-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura39 = document.querySelector('.pintura39');
+pintura39.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 28-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura40 = document.querySelector('.pintura40');
+pintura40.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 29-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura401 = document.querySelector('.pintura401');
+pintura401.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 30-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura41 = document.querySelector('.pintura41');
+pintura41.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 31-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura42 = document.querySelector('.pintura42');
+pintura42.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 32-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura43 = document.querySelector('.pintura43');
+pintura43.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 33-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura44 = document.querySelector('.pintura44');
+pintura44.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/9-alejandro-perez-cruz/Pintura 34-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Grabado sobre papel</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  21.5x28cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura45 = document.querySelector('.pintura45');
+pintura45.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/11-duany/Pintura 37-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+          '     <TABLE class="DES">'+
+          '       <TR>'+
+          '         <TH>Descripción:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Serie de 4 piezas: “Makuto vive aquí”, (Deidad en Cuba), refleja la situación de solidaridad entre las personas que no tienen nada y que están inmersos en la pobreza y desigualdad. Se aprecian figuras abstractas de niños, que están sobrepuestas ante esta situación.</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Serie de 4 piezas</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Colección:  “Niños en Neza”</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Duany</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre cartulina</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  45x90cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura46 = document.querySelector('.pintura46');
+pintura46.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/11-duany/Pintura 38-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Serie de 4 piezas</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Colección:  “Niños en Neza”</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Duany</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre cartulina</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  45x90cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura47 = document.querySelector('.pintura47');
+pintura47.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/11-duany/Pintura 39-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Serie de 4 piezas</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Colección:  “Niños en Neza”</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Duany</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre cartulina</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  45x90cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura48 = document.querySelector('.pintura48');
+pintura48.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalH">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/11-duany/Pintura 40-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          '</div>',
+    showCloseButton: true,
+    showConfirmButton: false,
+    width:"95%",
+    background: "#fff8",
+    footer:' <div class="textoMH">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Serie de 4 piezas</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Colección:  “Niños en Neza”</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Duany</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre cartulina</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  45x90cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
+          ' </div>',
+    showClass: {
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__zoomOutDown'
+    }
+  };
+  Swal.fire(options);
+});
+const pintura49 = document.querySelector('.pintura49');
+pintura49.addEventListener("click", () => {
+  const options = {
+    html: 
+          '<div class="modalV">'+
+          ' <div class="pinturaM">'+
+          '   <img src="../images/13-alfredo-arcos/Pintura 50-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Alfredo Arcos</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Óleo sobre tela</TD>'+
           '       </TR>'+
           '     </TABLE>'+
           ' </div>'+
