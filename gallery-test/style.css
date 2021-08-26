@@ -570,6 +570,18 @@ text-fill-color: transparent; */
   font-family:  Helvetica;
   
 }
+h5{
+  font-size: 50px;
+  color:var(--white);
+  text-align:justify;
+   
+  font-family:  Helvetica;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
 .moreText {
   display: none;
   
@@ -806,4 +818,124 @@ a{
 }
 .material-icons{
   cursor: pointer;
+}
+
+
+/* artistas */
+.container-1{
+   
+}
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none !important; 
+  transition: flex 2s ease;
+  border-style: solid  ;
+  border-color: var(--white);
+  border-width: 1px;
+}
+.item:hover{
+  flex: 8;
+}
+.gallery-wrap .item .btn{
+  margin: 20px 20px;
+  background-color: #00245b70;
+  
+  
+}
+.icon.icon-tabler.icon-tabler-arrows-maximize{
+  width:32px; 
+  height:32px; 
+  stroke-width: 2px;
+  stroke: var(--orange2);
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  
+}
+
+.modal .modal-fullscreen .modal-content .modal-body img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* footer */
+.footer{
+  padding: 5rem calc((100vw - 1100px)/2);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: var(--white);
+  background: rgb(63, 63, 63);
+}
+.footer__desc{
+  padding: 0 2rem;
+}
+.footer__desc h3{
+  margin-bottom: 2rem;
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.footer__desc p{
+  margin-bottom: 1rem;
+
+}
+#phone{
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+.footer__wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+
+}
+.footer__title{
+  font-size: 14px;
+  margin-bottom: 16px;
+
+}
+.footer__link{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+  transition: 0.3s ease-in-out;
+
+
+
+}
+.footer__link:hover{
+  color: var(--red);
+}
+@media screen and (max-width: 820px){
+  .footer__wrapper{
+      grid-template-columns: 1fr;
+
+  }
+
+}
+@media screen and (max-width:400px) {
+  .footer__desc{
+      padding: 1rem;
+  }
+  .footer__links{
+      padding: 1rem;
+  }
 }
