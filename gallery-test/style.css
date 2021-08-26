@@ -939,3 +939,10 @@ a{
       padding: 1rem;
   }
 }
+/**/
+.material-icons.md-48 { 
+  font-size: 48px; 
+  color: white;
+  background-color: #0003;
+}
+  
