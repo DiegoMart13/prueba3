@@ -247,7 +247,7 @@
 
 
 body {
-  font-family: Helvetica;
+  font-family: Poppins;
   color: var(--text-color);
   background: var(--bg-color);
   transition: 0.3s ease-out;
@@ -258,8 +258,8 @@ body {
     
   overflow-y: hidden;
 
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7%;
+  padding-right: 7%;
 
 }
 
@@ -319,7 +319,7 @@ h2 {
 }
 
 .credit {
-  font-family: Helvetica;
+  font-family: Poppins;
 }
 .credit a {
   color: var(--text-color);
@@ -381,7 +381,7 @@ h2 {
   left: 55%;
   width: 100%;
   color: rgb(255, 255, 255);
-  font-family: Helvetica;
+  font-family: Poppins;
   transform: translateX(-50%) translateY(-50%);
   font-size:1.5rem;
 
@@ -551,7 +551,7 @@ text-fill-color: transparent; */
   text-align:justify;
   margin-left: 15% ;
   margin-right: 30%;
-  font-family: Helvetica, ;
+  font-family: Poppins, ;
 }
 .text-block{
   font-size: 20px;
@@ -560,7 +560,7 @@ text-fill-color: transparent; */
   margin-left: 10%;
   margin-right: 10%;
    
-  font-family: Helvetica, ;
+  font-family: Poppins, ;
 }
 /* boton leer mas */
 .text {
@@ -579,7 +579,7 @@ h5{
   color:var(--white);
   text-align:justify;
    
-  font-family:  Helvetica;
+  font-family:  Poppins;
 
   display: flex;
   justify-content: center;
@@ -595,8 +595,8 @@ h5{
    
   padding:10px;
  background:
-  linear-gradient(-90deg,currentColor 50%,#0000 0) 0 0,
-  linear-gradient(  0deg,currentColor 50%,#0000 0) 0 0,
+  linear-gradient(-90deg,currentColor 50%,rgba(255, 255, 255, 0) 0) 0 0,
+  linear-gradient(  0deg,currentColor 50%,rgba(255, 255, 255, 0) 0) 0 0,
   linear-gradient(currentColor 0 0) 100% 100%,
   linear-gradient(currentColor 0 0) 100% 100%;
 background-size: 200% 3px,3px 200%,3px 0%,0% 3px; 
@@ -604,10 +604,11 @@ background-repeat:no-repeat;
 transition: .3s,background-size .3s .3s;
 border: 0px;
 position:relative;
-  top:50%; 
+  top:30%; 
   left:50%;
   font-size: 25px;
-  color: var(--orange2);
+  color: #474644;
+  font-family: Poppins;
 
 }
 .read-more-btn:hover{
@@ -677,7 +678,7 @@ transition: .3s,background-position .3s .3s;
 .membership__card a h3{
   font-size: clamp(1rem, 5vw, 2rem);
   margin-bottom: 2rem;
-  font-family: 'Pacifico', cursive;
+  font-family: Poppins;
   color: var(--white);
 }
 .membership__card a h3:hover{
