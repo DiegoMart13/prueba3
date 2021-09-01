@@ -73,7 +73,7 @@
  
 
 .navbar{
-  background:#06606d;
+  background:#002F6C;
   height: 60px;
   padding: 0.5rem calc((100vw - 1200px)/2);
   display: flex;
@@ -133,7 +133,7 @@
   z-index: 99;
   height: 100vh;
   font-size: 1.5rem;
-  background: #06606d;
+  background: #002F6C;
 
 }
 
@@ -257,6 +257,10 @@ body {
   overscroll-behavior: none;
     
   overflow-y: hidden;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
 
 section:not(.horizontal-scroll) {
@@ -499,9 +503,9 @@ margin-top: 0px;
   line-height: 2.5;
    
   text-transform: uppercase;
-  font-family:  Helvetica;
+  font-family: Josefin Sans;
   
-  color: var(--white);
+  color: #474644;
 
    
   
@@ -519,7 +523,7 @@ text-fill-color: transparent; */
 }
 .frase{
    font-size: 15px;
-   font-family:  Helvetica ;
+   font-family:  Poppins ;
    text-align: justify;
    /* border-style: dotted;
    border-color: white; */
@@ -527,7 +531,7 @@ text-fill-color: transparent; */
   
  
  margin-right: 50px;
- color: var(--white);
+ color: #474644 ;
 
 }
  
@@ -563,11 +567,11 @@ text-fill-color: transparent; */
   
   /* font-size: large; */
   font-size: 20px;
-  color:var(--white);
+  color:#474644;
   text-align:justify;
   margin-left: 15% ;
   margin-right: 15%;
-  font-family:  Helvetica;
+  font-family:  Poppins;
   
 }
 h5{
@@ -743,12 +747,12 @@ a{
 .textoMH{
   display: flex;
   flex-direction:column;
-  justify-content: center;
-  background-color: white;
-  min-width: 700px;
 }
 
-
+.swal2-footer{
+  background-color: white;
+  justify-content: flex-start;
+}
 
 .modalV{
   display: flex;
@@ -776,14 +780,14 @@ a{
 .FT{
   width: 100%;
   font-size:75%;
-  font-family: Helvetica;
+  font-family: Poppins;
   padding: 10px;
 }
 
 .DES{
   width: 100%;
   font-size:110%;
-  font-family: Helvetica;
+  font-family: Poppins;
   padding: 10px;
 }
 
