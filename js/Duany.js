@@ -1,10 +1,9 @@
-
-const p7 = document.querySelector(".p7");
-p7.addEventListener("click", () => {
+const p37 = document.querySelector(".p37");
+p37.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
     showConfirmButton:  false,
-    imageUrl: '../images/3-mauricio-vega/Pintura 7-min.JPG',
+    imageUrl: '../images/11-duany/Pintura 37-min.jpg',
     imageHeight: 'auto',
     width:"90%",
     height:"80vh",
@@ -18,13 +17,13 @@ p7.addEventListener("click", () => {
     }
   };
   Swal.fire(options);
-});
-const p8 = document.querySelector(".p8");
-p8.addEventListener("click", () => {
+})
+const p38 = document.querySelector(".p38");
+p38.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
     showConfirmButton:  false,
-    imageUrl: '../images/3-mauricio-vega/Pintura 8-min.JPG',
+    imageUrl: '../images/11-duany/Pintura 38-min.jpg',
     imageHeight: 'auto',
     width:"90%",
     height:"80vh",
@@ -38,13 +37,13 @@ p8.addEventListener("click", () => {
     }
   };
   Swal.fire(options);
-});
-const pcompleto = document.querySelector(".pcompleto");
-pcompleto.addEventListener("click", () => {
+})
+const p39 = document.querySelector(".p39");
+p39.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
     showConfirmButton:  false,
-    imageUrl: '../images/3-mauricio-vega/Tríptico completo-min.png',
+    imageUrl: '../images/11-duany/Pintura 39-min.jpg',
     imageHeight: 'auto',
     width:"90%",
     height:"80vh",
@@ -58,4 +57,24 @@ pcompleto.addEventListener("click", () => {
     }
   };
   Swal.fire(options);
-});
+})
+const p40 = document.querySelector(".p40");
+p40.addEventListener("click", () => {
+  const options = {
+    showCloseButton: true,
+    showConfirmButton:  false,
+    imageUrl: '../images/11-duany/Pintura 40-min.jpg',
+    imageHeight: 'auto',
+    width:"90%",
+    height:"80vh",
+    backdrop: true,
+    background: '#0003',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  };
+  Swal.fire(options);
+})

@@ -2905,7 +2905,7 @@ pintura38.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
@@ -2949,7 +2949,7 @@ pintura39.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
@@ -2993,7 +2993,7 @@ pintura40.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
@@ -3037,7 +3037,7 @@ pintura401.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
@@ -3081,7 +3081,7 @@ pintura41.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
@@ -3125,7 +3125,7 @@ pintura42.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
@@ -3169,7 +3169,7 @@ pintura43.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
@@ -3213,7 +3213,7 @@ pintura44.addEventListener("click", () => {
           '         <TD>Sin Título</TD>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Artista:  ALEJANDRO PEREZ CRUZ</TD>'+
+          '         <TD>Artista:  Alejandro Pérez Cruz</TD>'+
           '       </TR>'+
           '       <TR>'+
           '         <TD>Fragmentaciones:  Ninguna</TD>'+
