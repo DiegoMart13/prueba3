@@ -14,10 +14,11 @@
     --white: #fff;
 }
 
+
 .centrado{
-  background-color: #0bb3ca;
-  height: 100vh;
-  width: 100vw;
+  background-color: transparent;
+  height: 500px;
+  width: 500px;
    
   position: absolute;
   z-index: 2;
@@ -27,7 +28,15 @@
   justify-content: center;
   align-items: center;
  
+  /* border-style: dotted;
+  border-color: var(--red); */
+  position: absolute;
   
+  top:250%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 500%;
+  text-align: center;
  
 }
 .hidden{
@@ -85,6 +94,7 @@
   top: 0;
   left: 0;
   width:100%;
+  box-shadow: 0 5px 38px rgba(0,0,0,0.30), 0 5px 12px rgba(0,0,0,0.22);
 
 
 }
@@ -219,7 +229,7 @@
 }
 .material-icons{
   margin-right: 0.5rem;
-  color: var(--red);
+   
 }
 @media screen and (max-width: 768px){
   .services__container{
@@ -381,7 +391,7 @@ h2 {
   top: 90%;
   left: 55%;
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: #EFE2CA;
   font-family: Poppins;
   transform: translateX(-50%) translateY(-50%);
   font-size:1.5rem;
@@ -399,7 +409,7 @@ h2 {
 
 }
 .text-box h1:hover{
-  color: rgb(0, 0, 0);
+  color: #002f6c;
   /* background-size: 80% 4px;
   background-position: 100% 100%,0 100%; */
 }
@@ -419,12 +429,12 @@ h2 {
 .text-box a i {
   margin-left: 50%;
   font-size:50px ;
-  color: rgb(255, 255, 255);
+  color: #EFE2CA;
  
 }
  
 .text-box a i:hover{
-  color: rgb(255, 174, 0) ; 
+  color: #EAD096 ; 
 }
 
 
@@ -950,8 +960,8 @@ a{
 /**/
 .material-icons.md-48 { 
   font-size: 48px; 
-  color: white;
-  background-color: #0003;
+  color: #EFE2CA;
+  background-color: #474644;
 }
   
 .ico__mouse{
