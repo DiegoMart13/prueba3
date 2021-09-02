@@ -1,14 +1,14 @@
-const p1 = document.querySelector(".p1");
-p1.addEventListener("click", () => {
+const p10 = document.querySelector(".p10");
+p10.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
     showConfirmButton:  false,
-    imageUrl: '../images/3-mauricio-vega/Pintura 7-min.JPG',
+    imageUrl: '../images/4-ismael-ponce/Pintura 10-min.jpg',
     imageHeight: 'auto',
     width:"90%",
     height:"80vh",
     backdrop: true,
-    background: '#fff0',
+    background: '#0003',
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
@@ -17,18 +17,18 @@ p1.addEventListener("click", () => {
     }
   };
   Swal.fire(options);
-});
-const p2 = document.querySelector(".p2");
-p2.addEventListener("click", () => {
+})
+const p11 = document.querySelector(".p11");
+p11.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
     showConfirmButton:  false,
-    imageUrl: '../images/3-mauricio-vega/Pintura 8-min.JPG',
+    imageUrl: '../images/4-ismael-ponce/Pintura 11-min.jpg',
     imageHeight: 'auto',
     width:"90%",
     height:"80vh",
     backdrop: true,
-    background: '#fff',
+    background: '#0003',
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
@@ -37,18 +37,18 @@ p2.addEventListener("click", () => {
     }
   };
   Swal.fire(options);
-});
-const p3 = document.querySelector(".p3");
-p3.addEventListener("click", () => {
+})
+const p12 = document.querySelector(".p12");
+p12.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
     showConfirmButton:  false,
-    imageUrl: '../images/3-mauricio-vega/Tríptico completo-min.png',
+    imageUrl: '../images/4-ismael-ponce/Pintura 12-min.jpg',
     imageHeight: 'auto',
     width:"90%",
     height:"80vh",
     backdrop: true,
-    background: '#fff',
+    background: '#0003',
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
@@ -57,4 +57,4 @@ p3.addEventListener("click", () => {
     }
   };
   Swal.fire(options);
-});
+})
