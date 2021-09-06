@@ -142,6 +142,7 @@
   left: 0;
   width:100%;
   box-shadow: 0 5px 38px rgba(0,0,0,0.30), 0 5px 12px rgba(0,0,0,0.22);
+ 
 
 
 }
@@ -155,11 +156,85 @@
   color: var(--white);
   text-decoration: none;
   padding: 0rem 1rem;
+  text-transform: uppercase;
+ 
 }
 
 .navbar__link:hover{
-  color:#efd9ab;
+  color:#002F6C;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 15px 30px;
+  background-color: #efd9ab;
   
+}
+.navbar__menu{
+  
+  padding-right: 20%;
+
+}
+
+.lista {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+   
+ 
+ 
+}
+ul{
+  border: 2px solid #bfc0c0;
+   
+
+  -moz-border-radius: 1em 4em 1em 4em;
+  border-radius: 1em 4em 1em 4em;
+  background-color: white;
+ 
+
+}
+.lista li {
+ 
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  /* background: #fff; */
+  cursor: pointer;
+ 
+ 
+}
+.lista li:hover {
+  /* background: #555;
+  color: #fff; */ 
+}
+.lista li ul {
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 500px; 
+  /* contenedor  */
+ 
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  
+  
+}
+.lista li ul li a { 
+   font-size: 11px;
+  color:var(--greyfont);
+  text-decoration: underline;
+ 
+}
+.lista li ul li a:hover { background: transparent; color: #002F6C;  }
+.lista li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible; 
 }
 @media screen and (max-width: 768px){
   body{
@@ -169,11 +244,23 @@
       overflow-y: hidden;
       overflow-x: hidden;
   }
+  .lista li ul li:hover { background: #002F6C; color: #EAD096; }
+.lista li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: hidden;
+}
   .navbar__link{
       display: flex;
       align-items: center;
       justify-content: center;
+      
   }
+  .lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .navbar__menu{
   display: grid;
@@ -182,6 +269,7 @@
   position: absolute;
   width: 100%;
   top: -1000px;
+  padding-right: 0%;
 
 }
 .navbar__menu.active{
