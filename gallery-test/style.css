@@ -992,6 +992,15 @@ a{
 .swal2-footer{
   background-color: white;
   justify-content: flex-start;
+
+}
+.swal2-close{
+  font-weight:bold;
+  color: #000;
+}
+button.swal2-confirm {
+  font-weight:bold;
+  color: #000;
 }
 
 .modalV{
@@ -1019,16 +1028,18 @@ a{
 
 .FT{
   width: 100%;
-  font-size:75%;
+  font-size:1rem;
   font-family: Poppins;
   padding: 10px;
+  color: #474644;
 }
 
 .DES{
   width: 100%;
-  font-size:110%;
+  font-size: 1.5rem;;
   font-family: Poppins;
   padding: 10px;
+  color: #474644;
 }
 
 .FT tr , .DES tr{
