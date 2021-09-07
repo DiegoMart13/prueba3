@@ -208,8 +208,8 @@ verMas.addEventListener("click", () => {
   };
   Swal.fire(options);
 });
-
-
+/*EVITAR CLIC DERECHO*/
+//document.oncontextmenu = function(){return false}
 //______MODALES CAROUSEL PASADO-ORIGEN_____________
 
 const pintura1 = document.querySelector('.pintura1');

@@ -151,6 +151,21 @@
   text-decoration: none;
   padding-left:  1rem;
   font-size: 1.5rem;
+  display: inline-block;
+  /* border-style: dotted;
+  border-color: violet; */
+}
+.logos{
+  display: inline-block;
+  height: auto;
+  width: 65px;
+  padding-top: 5px;
+  margin-left: 50px;
+
+/*   
+  border-style: dotted;
+  border-color: yellow; */
+  margin-right: -50px;
 }
 .navbar__link{
   color: var(--white);
@@ -244,6 +259,16 @@ ul{
       overflow-y: hidden;
       overflow-x: hidden;
   }
+  .logos{
+   
+ 
+    margin:  5px auto;
+    transition:  all 0.3s ease-in-out;
+ 
+ 
+    cursor: pointer;
+  }
+   
   .lista li ul li:hover { background: #002F6C; color: #EAD096; }
 .lista li:hover ul {
   display: block;
@@ -345,16 +370,16 @@ ul{
   margin-bottom: 0.5rem ;
 }
 .services__heading{
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   font-size: clamp(2rem, 6vw, 3rem);
   z-index: 0;
   color: #474644;
 }
 .services__features{
-  list-style: none;
+  /* list-style: none;
   margin-bottom: 1rem;
   font-size: clamp(2rem, 6vw, 3rem);
-  z-index: 0;
+  z-index: 0; */
 
 }
 .services__feature{
@@ -371,7 +396,7 @@ ul{
       grid-template-columns: 1fr;
   }
   .services__img{
-    margin-top: 30px;
+    margin-top: 0rem;
     /* padding-left: 20%; */
      
   
@@ -383,10 +408,13 @@ ul{
     height: 80%;
   }
   .services__heading{
+    margin-bottom: 2rem;
     padding-top: 50px;
     font-size: clamp(1rem, 6vw, 3rem);
-    text-align: center;
+    text-align:center;
     z-index: 0;
+    border-style: dotted;
+    border-color: green;
   }
 }
 
