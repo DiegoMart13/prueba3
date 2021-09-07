@@ -1,9 +1,9 @@
- /*window.onload = function(){
+ window.onload = function(){
  
   $('#onload').fadeOut();
   $('body').addClass('hidden');
-} */
-window.onload = () => {
+}  
+/*window.onload = () => {
   const anchors = document.querySelectorAll('a');
   const transition_el = document.querySelector('.transition');
   $('#onload').fadeOut();
@@ -31,7 +31,7 @@ window.onload = () => {
     })
   }
 }
-
+*/
 
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
