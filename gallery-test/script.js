@@ -203,11 +203,11 @@ verMas.addEventListener("click", () => {
     '  Ciudad Nezahualcóyotl… una realidad olvidada para las nuevas generaciones, un reflejo poderoso habitado por recuerdos que emergieron de un sueño solidario y fundacional. Ciudad construida sobre la nostalgia inagotable de un lago que late en las páginas de un libro inmemorial. Ciudad Nezahualcóyotl, el primer camino a la verdad, a la luz, a la esperanza.'+
     '</p>',
     confirmButtonText: "Ver menos",
-    confirmButtonColor: '#f2a900',
-    width:"100%",
+    confirmButtonColor: '#EFE2CA',
+    width:"80%",
     height:"100vh",
     backdrop: true,
-    background: '#f2a900',
+    background: '#EFE2CA',
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
