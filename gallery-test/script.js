@@ -7,11 +7,11 @@ link.addEventListener("click", (e) => {
     window.location = link.href;
   }, 900);
 });*/
-/* window.onload = function(){
+ window.onload = function(){
  
   $('#onload').fadeOut();
   $('body').addClass('hidden');
-}  */
+}  
 /*window.onload = () => {
   const anchors = document.querySelectorAll('a');
   const transition_el = document.querySelector('.transition');
