@@ -331,7 +331,7 @@ pintura2F1.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/1 fragmentacion de pintura2-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/1 fragmentacion de pintura2-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -385,7 +385,7 @@ pintura2F2.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/2 fragmentación de pintura2-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/2 fragmentación de pintura2-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -439,7 +439,7 @@ pintura2F3.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/3 fragmentación de pintura3-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/3 fragmentación de pintura3-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -493,7 +493,7 @@ pintura3.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/Pintura 3-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/Pintura 3-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -545,7 +545,7 @@ pintura4.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/Pintura 4-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/Pintura 4-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -597,7 +597,7 @@ pintura5.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/Pintura 5-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/Pintura 5-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -649,7 +649,7 @@ pintura6.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/Pintura 6-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/Pintura 6-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -701,7 +701,7 @@ pintura7.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/3-mauricio-vega/Pintura 7-min.JPG" alt=""></img>'+  
+          '   <img src="./images/3-mauricio-vega/Pintura 7-min.JPG" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -745,7 +745,7 @@ pintura8.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/3-mauricio-vega/Pintura 8-min.JPG" alt=""></img>'+  
+          '   <img src="./images/3-mauricio-vega/Pintura 8-min.JPG" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -789,7 +789,7 @@ pintura9.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/3-mauricio-vega/Tríptico completo-min.png" alt=""></img>'+  
+          '   <img src="./images/3-mauricio-vega/Tríptico completo-min.png" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -841,7 +841,7 @@ pintura10.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/4-ismael-ponce/Pintura 10-min.jpg" alt=""></img>'+  
+          '   <img src="./images/4-ismael-ponce/Pintura 10-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -893,7 +893,7 @@ pintura11.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/4-ismael-ponce/Pintura 11-min.jpg" alt=""></img>'+  
+          '   <img src="./images/4-ismael-ponce/Pintura 11-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -945,7 +945,7 @@ pintura12.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/4-ismael-ponce/Pintura 12-min.jpg" alt=""></img>'+  
+          '   <img src="./images/4-ismael-ponce/Pintura 12-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -997,7 +997,7 @@ pintura13.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/Pintura 13-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/Pintura 13-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
