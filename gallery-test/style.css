@@ -1170,6 +1170,7 @@ button.swal2-confirm {
   flex-direction: column;
   align-items: flex-start;
   padding: 1rem 2rem;
+  padding-top: 30%;
 
 }
 .footer__title{
@@ -1187,16 +1188,25 @@ button.swal2-confirm {
 
 
 }
-.footer__link:hover{
+.footer__links a:hover{
  
  color: #002F6C;
 
+}
+.location{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 5vh;
+ 
 }
 @media screen and (max-width: 820px){
   .footer__wrapper{
       grid-template-columns: 1fr;
 
   }
+   
 
 }
 @media screen and (max-width:400px) {
@@ -1213,6 +1223,7 @@ button.swal2-confirm {
   color: #EFE2CA;
   background-color: #474644;
 }
+ 
   
 .ico__mouse{
   position:fixed;
