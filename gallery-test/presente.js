@@ -1,4 +1,4 @@
-const link = document.querySelector(".link");
+/*const link = document.querySelector(".link");
 const transition = document.querySelector(".transition");
 link.addEventListener("click", (e) => {
   e.preventDefault();
@@ -6,12 +6,12 @@ link.addEventListener("click", (e) => {
   setTimeout(() => {
     window.location = link.href;
   }, 900);
-});
-/* window.onload = function(){
+});*/
+  window.onload = function(){
  
   $('#onload').fadeOut();
   $('body').addClass('hidden');
-}  */
+}   
 /*window.onload = () => {
   const anchors = document.querySelectorAll('a');
   const transition_el = document.querySelector('.transition');

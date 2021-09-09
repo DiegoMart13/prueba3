@@ -439,6 +439,15 @@ body {
   padding-right: 7%;
 
 }
+@media screen and (max-width: 768px){
+  
+body {
+ 
+  padding-left: 0%;
+  padding-right: 0%;
+
+}
+}
 
 section:not(.horizontal-scroll) {
   min-height: 10vh;
