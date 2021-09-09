@@ -4,32 +4,41 @@
         <meta charset="UTF-8">
         <title>David Fernández Duany</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
         <link rel='stylesheet' href='https://use.typekit.net/skn8ash.css'>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
         <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css'>
         <link rel="stylesheet" href="../gallery-test/style.css"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
     </head>
-
     <body>
         <nav class="navbar">
-            <a href="/" class="navbar__logo">LOGO</a>
+            <a href="/" class="navbar__logo"> 
+              <div >
+                <img src="../images/unam.png" alt="" class="logos">
+                <img src="../images/fes-aragon.png" alt=""  class="logos">
+              </div>
+            </a>
             <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                 
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
             </div>
             <div class="navbar__menu">
-                <a href="/" class="navbar__link">Inicio</a>
-                <a href="/services.html" class="navbar__link">Artistas</a>
-                <a href="/plans.html" class="navbar__link">Texto</a>
-                <a href="/trainers.html" class="navbar__link">UNAM</a>
-        
+              <a href="/" class="navbar__link">INICIO</a>
+              <a href="../exposicion-neza.html" class="navbar__link">Exposición</a>
+              <div class="lista"> 
+                <li>
+                  <a href="../obras/obras.html" class="navbar__link">OBRAS</a>
+                  <ul>
+                    <li><a href="../obras/pasado.html" class="  ">PASADO - ORIGEN</a> </li>
+                    <li><a href="../obras/presente.html" class="  ">PRESENTE - DESARROLLO</a> </li>
+                    <li><a href="../obras/futuro.html" class="  ">FUTURO - IDENTIDAD</a> </li>
+                  </ul>
+                </li >
+              </div>
+              <a href="../artistas/artistas.html" class="navbar__link">ARTISTAS</a>
             </div>
         </nav>
         <div class="container">
@@ -40,7 +49,7 @@
                 </div>
                 </div>
             </section>
-            <section data-textcolor="#fff" data-bgcolor="#f2a900">
+            <section data-textcolor="#fff" data-bgcolor="#EFE2CA">
                 <div class="container-1"> 
                 <div class="row">
                         <h5  >David Fernández Duany</h5>
@@ -99,10 +108,8 @@
                 </div>
             </section>
         </div>  
-
     </body>
     <script defer src='//cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-    <!-- partial -->
     <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
     <script src='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js'></script>
@@ -110,6 +117,4 @@
     <script  src="../js/Duany.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script defer src='//cdn.jsdelivr.net/npm/sweetalert2@11'></script>    
-    
 </html>
-
