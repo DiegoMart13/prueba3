@@ -1188,6 +1188,20 @@ button.swal2-confirm {
 
 
 }
+.f-btn{
+  font-family: Poppins;
+  color:#002F6C;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px 30px;
+  background-color: #efd9ab;
+}
+.f-btn:hover{
+  
+  background-color: #fff;
+}
 .footer__links a:hover{
  
  color: #002F6C;
