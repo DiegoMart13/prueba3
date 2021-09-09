@@ -227,7 +227,7 @@ pintura1.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura1-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/Pintura1-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="DES">'+
@@ -279,7 +279,7 @@ pintura2.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/2-LazaroGalicia/Pintura 2-min.jpg" alt=""></img>'+  
+          '   <img src="./images/2-LazaroGalicia/Pintura 2-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
