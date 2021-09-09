@@ -1042,7 +1042,7 @@ pintura14.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura 46-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/Pintura 46-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="DES">'+
@@ -1094,7 +1094,7 @@ pintura14F1.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/2 fragmentación de pintura 46-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/2 fragmentación de pintura 46-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="fragmentoV">'+
           '   <div class="textoFMV">'+
@@ -1140,7 +1140,7 @@ pintura14F2.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/1 fragmentación de pintura 46-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/1 fragmentación de pintura 46-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1186,7 +1186,7 @@ pintura15.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura 47-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/Pintura 47-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="DES">'+
@@ -1238,7 +1238,7 @@ pintura15F1.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/1 fragmentación de pintura 47-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/1 fragmentación de pintura 47-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1284,7 +1284,7 @@ pintura15F2.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/2 fragmentacion pintura 47-min.JPG" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/2 fragmentacion pintura 47-min.JPG" alt=""></img>'+  
           ' </div>'+
           ' <div class="fragmentoV">'+
           '   <div class="textoFMV">'+
@@ -1330,7 +1330,7 @@ pintura15F3.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/3 fragmentacion pintura 47-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/3 fragmentacion pintura 47-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="fragmentoV">'+
           '   <div class="textoFMV">'+
@@ -1376,7 +1376,7 @@ pintura16.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura 48-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/Pintura 48-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="DES">'+
@@ -1428,7 +1428,7 @@ pintura16F1.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/1 fragmentación de pintura 49-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/1 fragmentación de pintura 49-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1474,7 +1474,7 @@ pintura16F2.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/2 fragmentación de pintura 49-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/2 fragmentación de pintura 49-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1520,7 +1520,7 @@ pintura17.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura 49-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/Pintura 49-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="DES">'+
@@ -1572,7 +1572,7 @@ pintura18F1.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/1 fragmentación de pintura 14-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/1 fragmentación de pintura 14-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="fragmentoV">'+
           '   <div class="textoFMV">'+
@@ -1618,7 +1618,7 @@ pintura18.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/Pintura 14-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/Pintura 14-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1662,7 +1662,7 @@ pintura19F1.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/1 fragmentación de la pintura 15-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/1 fragmentación de la pintura 15-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1708,7 +1708,7 @@ pintura19.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/Pintura 15-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/Pintura 15-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1752,7 +1752,7 @@ pintura20F1.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/1 fragmentación de la pintura 16-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/1 fragmentación de la pintura 16-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1798,7 +1798,7 @@ pintura20.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/Pintura 16-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/Pintura 16-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1842,7 +1842,7 @@ pintura21F1.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/2 fragmentacion de la pintura 17-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/2 fragmentacion de la pintura 17-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="fragmentoV">'+
           '   <div class="textoFMV">'+
@@ -1888,7 +1888,7 @@ pintura21F2.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/1 fragmentacion de la pintura 17-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/1 fragmentacion de la pintura 17-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1934,7 +1934,7 @@ pintura21.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/Pintura 17-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/Pintura 17-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -1978,7 +1978,7 @@ pintura22F1.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/1 fragmentación de pintura 18-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/1 fragmentación de pintura 18-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="fragmentoV">'+
           '   <div class="textoFMV">'+
@@ -2024,7 +2024,7 @@ pintura22F2.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/2 fragmentación de pintura 18-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/2 fragmentación de pintura 18-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2070,7 +2070,7 @@ pintura22.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/Pintura 18-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/Pintura 18-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2114,7 +2114,7 @@ pintura23.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/5-juan-orozco-palmerin/Pintura 19-min.jpg" alt=""></img>'+  
+          '   <img src="./images/5-juan-orozco-palmerin/Pintura 19-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2158,7 +2158,7 @@ pintura24.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/6-martin-cuaya/Pintura 20-min.jpg" alt=""></img>'+  
+          '   <img src="./images/6-martin-cuaya/Pintura 20-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2202,7 +2202,7 @@ pintura24F1.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/6-martin-cuaya/1 fragmentacion de pintura 20-min.jpg" alt=""></img>'+  
+          '   <img src="./images/6-martin-cuaya/1 fragmentacion de pintura 20-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2248,7 +2248,7 @@ pintura25F1.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/6-martin-cuaya/1 fragmentación de pintura 21-min.jpg" alt=""></img>'+  
+          '   <img src="./images/6-martin-cuaya/1 fragmentación de pintura 21-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2294,7 +2294,7 @@ pintura25.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/6-martin-cuaya/Pintura 21-min.jpg" alt=""></img>'+  
+          '   <img src="./images/6-martin-cuaya/Pintura 21-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2338,7 +2338,7 @@ pintura26.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/6-martin-cuaya/Pintura 22-min.jpg" alt=""></img>'+  
+          '   <img src="./images/6-martin-cuaya/Pintura 22-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2382,7 +2382,7 @@ pintura27.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/6-martin-cuaya/Pintura 23-min.jpg" alt=""></img>'+  
+          '   <img src="./images/6-martin-cuaya/Pintura 23-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2426,7 +2426,7 @@ pintura28.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/6-martin-cuaya/Pintura 24-min.jpg" alt=""></img>'+  
+          '   <img src="./images/6-martin-cuaya/Pintura 24-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2470,7 +2470,7 @@ pintura29.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/7-pablo-moran/Pintura 25-min.jpg" alt=""></img>'+  
+          '   <img src="./images/7-pablo-moran/Pintura 25-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2514,7 +2514,7 @@ pintura30.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/10-epitafio-tacho/Pintura 35-min.jpg" alt=""></img>'+  
+          '   <img src="./images/10-epitafio-tacho/Pintura 35-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="DES">'+
@@ -2563,7 +2563,7 @@ pintura31.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/10-epitafio-tacho/Pintura 36-min.jpg" alt=""></img>'+  
+          '   <img src="./images/10-epitafio-tacho/Pintura 36-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="DES">'+
@@ -2613,7 +2613,7 @@ pintura32.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/8-cuaya-rest-tren77-chez/imagen completa-min.jpg" alt=""></img>'+  
+          '   <img src="./images/8-cuaya-rest-tren77-chez/imagen completa-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
