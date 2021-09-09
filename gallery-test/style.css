@@ -883,24 +883,24 @@ transition: .3s,background-position .3s .3s;
 /*   */
 /* */
  
-.memberships{
+.artists{
   background: transparent;
   color: var(--white);
   padding: 6rem calc((100vw - 1100px)/2);
   text-align: center;
 }
-.memberships h1{
+.artists h1{
   margin-bottom: 1rem;
   font-size: clamp(2rem, 5vw,3rem);
   padding: 0 1rem;
 
 }
-.membership__desc{
+.artist__desc{
   margin-bottom: 3rem;
   font-size: clamp(1rem, 3vw,1.5rem);
   padding: 1rem;
 }
-.membership__wrapper{
+.artist__wrapper{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -908,7 +908,7 @@ transition: .3s,background-position .3s .3s;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.membership__card{
+.artist__card{
   margin-top: 3rem;
   padding: 1rem;
   min-height: auto;
@@ -921,7 +921,7 @@ transition: .3s,background-position .3s .3s;
   justify-content: space-between;
 }
  
-.membership__card a h3{
+.artist__card a h3{
   font-size: clamp(1rem, 5vw, 2rem);
   margin-bottom: 2rem;
   font-family: Poppins;
@@ -929,16 +929,16 @@ transition: .3s,background-position .3s .3s;
    
   color: #474644;
 }
-.membership__card a h3:hover{
+.artist__card a h3:hover{
    color:#EFE2CA;
 }
 
 @media screen and (max-width: 1100px){
-  .membership__wrapper{
+  .artist__wrapper{
       flex-direction: column;
       align-items: center;
   }
-  .membership__card{
+  .artist__card{
       width: 90%;
       margin-bottom: 2rem;
   }
