@@ -2665,7 +2665,7 @@ pintura32F1.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/8-cuaya-rest-tren77-chez/Fragmentación-min.jpg" alt=""></img>'+  
+          '   <img src="./images/8-cuaya-rest-tren77-chez/Fragmentación-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="fragmentoV">'+
           '   <div class="textoFMV">'+
@@ -2711,7 +2711,7 @@ pintura33.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/12-lupus/Pintura 41-min.jpg" alt=""></img>'+  
+          '   <img src="./images/12-lupus/Pintura 41-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -2755,7 +2755,7 @@ pintura34.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/12-lupus/Pintura 43-min.jpg" alt=""></img>'+  
+          '   <img src="./images/12-lupus/Pintura 43-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -2799,7 +2799,7 @@ pintura35.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/12-lupus/Pintura 42-min.jpg" alt=""></img>'+  
+          '   <img src="./images/12-lupus/Pintura 42-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2843,7 +2843,7 @@ pintura36.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/12-lupus/Pintura 44-min.jpg" alt=""></img>'+  
+          '   <img src="./images/12-lupus/Pintura 44-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2887,7 +2887,7 @@ pintura37.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/12-lupus/Pintura 45-min.jpg" alt=""></img>'+  
+          '   <img src="./images/12-lupus/Pintura 45-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -2931,7 +2931,7 @@ pintura38.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 27-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 27-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -2975,7 +2975,7 @@ pintura39.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 28-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 28-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -3019,7 +3019,7 @@ pintura40.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 29-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 29-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -3063,7 +3063,7 @@ pintura401.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 30-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 30-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -3107,7 +3107,7 @@ pintura41.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 31-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 31-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -3151,7 +3151,7 @@ pintura42.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 32-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 32-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -3195,7 +3195,7 @@ pintura43.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 33-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 33-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -3239,7 +3239,7 @@ pintura44.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/9-alejandro-perez-cruz/Pintura 34-min.jpg" alt=""></img>'+  
+          '   <img src="./images/9-alejandro-perez-cruz/Pintura 34-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
@@ -3283,7 +3283,7 @@ pintura45.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/11-duany/Pintura 37-min.jpg" alt=""></img>'+  
+          '   <img src="./images/11-duany/Pintura 37-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -3338,7 +3338,7 @@ pintura46.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/11-duany/Pintura 38-min.jpg" alt=""></img>'+  
+          '   <img src="./images/11-duany/Pintura 38-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -3385,7 +3385,7 @@ pintura47.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/11-duany/Pintura 39-min.jpg" alt=""></img>'+  
+          '   <img src="./images/11-duany/Pintura 39-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -3432,7 +3432,7 @@ pintura48.addEventListener("click", () => {
     html: 
           '<div class="modalH">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/11-duany/Pintura 40-min.jpg" alt=""></img>'+  
+          '   <img src="./images/11-duany/Pintura 40-min.jpg" alt=""></img>'+  
           ' </div>'+
           '</div>',
     showCloseButton: true,
@@ -3479,7 +3479,7 @@ pintura49.addEventListener("click", () => {
     html: 
           '<div class="modalV">'+
           ' <div class="pinturaM">'+
-          '   <img src="../images/13-alfredo-arcos/Pintura 50-min.jpg" alt=""></img>'+  
+          '   <img src="./images/13-alfredo-arcos/Pintura 50-min.jpg" alt=""></img>'+  
           ' </div>'+
           ' <div class="textoMV">'+
           '     <TABLE class="FT">'+
