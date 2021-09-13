@@ -806,12 +806,39 @@ text-fill-color: transparent; */
   font-family:  Poppins;
   
 }
+.text__art{
+  font-size: 20px;
+  color:#474644;
+  text-align:justify;
+  margin-left: 0% ;
+  margin-right: 0%;
+  font-family:  Poppins;
+  
+}
 @media screen and (max-width: 768px){
   .text{
     font-size: 1.5rem;
     text-align:justify;
  
  
+  }
+  .text__art{
+    font-size: 1.5rem;
+    text-align:justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h5{
+    font-size: 50px;
+    color:#474644;
+    text-align:justify;
+     
+    font-family:  Poppins;
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
   }
 }
 h5{
@@ -822,7 +849,7 @@ h5{
   font-family:  Poppins;
 
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: flex-start;
   padding: 1rem;
 }
