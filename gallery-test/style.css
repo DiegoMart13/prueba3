@@ -886,7 +886,7 @@ transition: .3s,background-position .3s .3s;
 .artists{
   background: transparent;
   color: var(--white);
-  padding: 6rem calc((100vw - 1100px)/2);
+   
   text-align: center;
 }
 .artists h1{
