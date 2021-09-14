@@ -20,6 +20,13 @@ function inicio(){
     },
     y: "-120%"
     });
+    const tl = gsap.timeline();
+    tl.to(".animation",{
+        y:"-100%",
+        duration:1,
+        delay:1,
+        ease:"Expo.easeInOut"
+    })
     gsap.from('.button__index',{
         scrollTrigger: '.button__index',
         duration: 3.9,
