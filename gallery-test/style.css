@@ -1161,7 +1161,7 @@ button.swal2-confirm {
 }
 /* footer */
 .footer{
-  padding: 5rem calc((100vw - 1100px)/2);
+  padding: 1rem calc((100vw - 1100px)/2);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   color: var(--white);
