@@ -212,7 +212,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>Expresa los inicios del grafiti así como la música Ska, dentro de Ciudad Neza, que fue parte fundamental del desarrollo del grafiti a nivel nacional, se muestra el pasado, presente y futuro de éste tipo de expresión artística.</TD>'+
+            '         <TD>Los inicios del grafiti y la música Ska, dentro de Ciudad Neza, se muestra el pasado, presente y futuro de este tipo de expresión artística.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+
@@ -882,7 +882,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>Serie de 4 piezas: “Makuto vive aquí”, (Deidad en Cuba), refleja la situación de solidaridad entre las personas que no tienen nada y que están inmersos en la pobreza y desigualdad. Se aprecian figuras abstractas de niños, que están sobrepuestas ante esta situación.</TD>'+
+            '         <TD>Serie de 4 piezas: “Makuto vive aquí”.<br>Serie1.<br>La solidaridad entre las personas que no tienen nada y que están inmersos en la pobreza y desigualdad.<br>Se aprecian figuras abstractas de niños.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+
@@ -932,6 +932,14 @@ window.onload = function(){
       width:"95%",
       background: "#fff8",
       footer:' <div class="textoMH">'+
+            '     <TABLE class="DES">'+
+            '       <TR>'+
+            '         <TH>Descripción:</TH>'+
+            '       </TR>'+
+            '       <TR>'+
+            '         <TD>Serie 2.<br>“Makuto vive aquí”</TD>'+
+            '       </TR>'+
+            '     </TABLE>'+
             '     <TABLE class="FT">'+
             '       <TR>'+
             '         <TH>Ficha Técnica:</TH>'+
@@ -979,6 +987,14 @@ window.onload = function(){
       width:"95%",
       background: "#fff8",
       footer:' <div class="textoMH">'+
+            '     <TABLE class="DES">'+
+            '       <TR>'+
+            '         <TH>Descripción:</TH>'+
+            '       </TR>'+
+            '       <TR>'+
+            '         <TD>Serie 3.<br>“Makuto vive aquí”</TD>'+
+            '       </TR>'+
+            '     </TABLE>'+
             '     <TABLE class="FT">'+
             '       <TR>'+
             '         <TH>Ficha Técnica:</TH>'+
@@ -1026,6 +1042,14 @@ window.onload = function(){
       width:"95%",
       background: "#fff8",
       footer:' <div class="textoMH">'+
+            '     <TABLE class="DES">'+
+            '       <TR>'+
+            '         <TH>Descripción:</TH>'+
+            '       </TR>'+
+            '       <TR>'+
+            '         <TD>Serie 4.<br>“Makuto vive aquí”</TD>'+
+            '       </TR>'+
+            '     </TABLE>'+
             '     <TABLE class="FT">'+
             '       <TR>'+
             '         <TH>Ficha Técnica:</TH>'+

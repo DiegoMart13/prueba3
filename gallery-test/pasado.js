@@ -206,7 +206,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>El inicio. Expresa la pobreza de los primeros habitantes de los años 60´s, mostrando a un niño montado en los hombros y su padre.</TD>'+
+            '         <TD>El inicio.<br>La pobreza de los primeros habitantes de los años sesenta, se muestra a un niño montado en los hombros de su padre.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+
@@ -316,7 +316,7 @@ window.onload = function(){
       '         <TH>Descripción:</TH>'+
       '       </TR>'+
       '       <TR>'+
-      '         <TD>Representa los primeros habitantes que llegaron a Ciudad Nezahualcóyotl, provenientes de diferentes estados de la República Mexicana.</TD>'+
+      '         <TD>Los primeros habitantes que llegaron a Ciudad Nezahualcóyotl, provenientes de diferentes estados de la República Mexicana.</TD>'+
       '       </TR>'+
       '     </TABLE>'+
       '     <TABLE class="FT">'+
@@ -370,7 +370,7 @@ window.onload = function(){
       '         <TH>Descripción:</TH>'+
       '       </TR>'+
       '       <TR>'+
-      '         <TD>Representa las avenidas Texcoco, Pantitlán, Chimalhuacán, Cuarta Avenida, y Bordo de Xochiaca que cruzan con la Av. López Mateos, Nezahualcóyotl, Riva palacio, Cuauhtémoc, y la Avenida 7.</TD>'+
+      '         <TD>Las primeras avenidas: Texcoco, Pantitlán, Chimalhuacán, Cuarta Avenida, y Bordo de Xochiaca que cruzan con la Av. López Mateos, Nezahualcóyotl, Riva palacio, Cuauhtémoc, y la Avenida 7.</TD>'+
       '       </TR>'+
       '     </TABLE>'+
       '     <TABLE class="FT">'+
@@ -424,7 +424,7 @@ window.onload = function(){
       '         <TH>Descripción:</TH>'+
       '       </TR>'+
       '       <TR>'+
-      '         <TD>Muestra la identidad que se generó en los primeros habitantes de la Ciudad ya consolidada.</TD>'+
+      '         <TD>La creación de la identidad en los primeros habitantes de la Ciudad ya consolidada.</TD>'+
       '       </TR>'+
       '     </TABLE>'+
       '     <TABLE class="FT">'+
@@ -477,7 +477,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>Expresa el triunfo de las personas donde no había nada, y se acompaña con los insectos representativos de esa ciudad naciente, los “caballitos del diablo”</TD>'+
+            '         <TD>El triunfo de las personas donde no había nada, que es acompañada por los insectos representativos de esa ciudad naciente, los “caballitos del diablo”.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+
@@ -529,7 +529,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>La ventana del querer aprender todo.<br>Se muestra la primera exposición de pintura que se hizo en Ciudad Neza en los escalones del Palacio Municipal</TD>'+
+            '         <TD>“La ventana del querer aprender todo”<br>Se muestra la primera exposición de pintura que se hizo en Ciudad Neza en los escalones del Palacio Municipal.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+
@@ -581,7 +581,7 @@ window.onload = function(){
       '         <TH>Descripción:</TH>'+
       '       </TR>'+
       '       <TR>'+
-      '         <TD>La mujer dando un nuevo aliento a la ciudad frente al coyote de Sebastián, lo que representa en nuevo milenio que contrasta con los problemas sociales, se puede observar en el recolector de basura así como las aguas residuales.</TD>'+
+      '         <TD>La mujer dando un nuevo aliento a la ciudad frente al coyote de Sebastián. Un nuevo milenio que contrasta con los problemas sociales.</TD>'+
       '       </TR>'+
       '     </TABLE>'+
       '     <TABLE class="FT">'+
@@ -633,7 +633,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>Es el presente que marca Lázaro Galicia a finales de la década pasada y a inicios de esta década, donde, expresa que los jóvenes tienen una venda en los ojos que no les permite ver a las personas que interactúan con ellos.</TD>'+
+            '         <TD>Es el presente enmarcado por Lázaro Galicia a finales de la década pasada y a inicios de esta década. Expresa que los jóvenes tienen una venda en los ojos que no les permite ver a las personas que interactúan con ellos.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+
@@ -825,7 +825,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>Él artista plasma en una serie de 3 cuadros, imágenes del fotógrafo Héctor García que se colocan sobre una madera con lienzos quemados, con el fin de representar que para hacer algo nuevo, otra cosa tiene que ser destruida.</TD>'+
+            '         <TD>Ismael Ponce plasma en una serie de 3 cuadros, imágenes del fotógrafo Héctor García.<br>Las imágenes se colocaron sobre una madera con lienzos quemados, con el fin de representar que para hacer algo nuevo, otra cosa tiene que ser destruida.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+
@@ -877,7 +877,7 @@ window.onload = function(){
       '         <TH>Descripción:</TH>'+
       '       </TR>'+
       '       <TR>'+
-      '         <TD>Continuando con la misma técnica, en este cuadro se aprecian 3 mujeres lavando ropa en la parte central, acompañado en su extremo izquierdo por postes de luz y torres de alta tensión, en su lado derecho, lo que significa, un progreso, donde las cosas van a cambiar.</TD>'+
+      '         <TD>Serie 2.<br>3 mujeres lavando ropa en la parte central, en complemento con su extremo izquierdo por postes de luz, y el derecho con torres de alta tensión, lo que significa un progreso.</TD>'+
       '       </TR>'+
       '     </TABLE>'+
       '     <TABLE class="FT">'+
@@ -929,7 +929,7 @@ window.onload = function(){
             '         <TH>Descripción:</TH>'+
             '       </TR>'+
             '       <TR>'+
-            '         <TD>*La ciudad se quedó sumida en el miedo debido al llamado “ahí vienen…ahí vienen”</TD>'+
+            '         <TD>Serie 3.<br>*La ciudad se quedó sumida en el miedo debido al llamado “ahí vienen…ahí vienen”.</TD>'+
             '       </TR>'+
             '     </TABLE>'+
             '     <TABLE class="FT">'+

@@ -207,7 +207,7 @@ pintura14.addEventListener("click", () => {
           '         <TH>Descripción:</TH>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Representación del nacimiento de un niño (Francisco Javier) en situación de pobreza, que muestra la precariedad de los habitantes que vivián en casas de cartón, cuyo ingreso económico partía de la venta y crianza de cerdos.</TD>'+
+          '         <TD>El nacimiento de Francisco Javier en situación de pobreza. muestra la precariedad de los habitantes que vivián en casas de cartón, cuyo ingreso económico partía de la venta y crianza de cerdos.</TD>'+
           '       </TR>'+
           '     </TABLE>'+
           '     <TABLE class="FT">'+
@@ -351,7 +351,7 @@ pintura15.addEventListener("click", () => {
           '         <TH>Descripción:</TH>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Francisco Javier, el niño que nació sumergido en la pobreza y desigualdad sobre los techos de cartón, inmerso en su situación se convirtió en un drogadicto.</TD>'+
+          '         <TD>Francisco Javier, el niño que nació sumergido en la pobreza y desigualdad sobre los techos de cartón, se convirtió en un drogadicto.</TD>'+
           '       </TR>'+
           '     </TABLE>'+
           '     <TABLE class="FT">'+
@@ -541,7 +541,7 @@ pintura16.addEventListener("click", () => {
           '         <TH>Descripción:</TH>'+
           '       </TR>'+
           '       <TR>'+
-          '         <TD>Discusión por parte de los padres que corren a Francisco Javier de su casa.</TD>'+
+          '         <TD>Discusión entre los padres de Francisco Javier que lo corren de su casa.</TD>'+
           '       </TR>'+
           '     </TABLE>'+
           '     <TABLE class="FT">'+
