@@ -846,10 +846,10 @@ h5{
   color:#474644;
   text-align:justify;
    
-  font-family:  Poppins;
+  font-family:  Josefin Sans;
 
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: flex-start;
   padding: 1rem;
 }
