@@ -1024,13 +1024,14 @@ a{
   display: flex;
   flex-direction:column;
   justify-content: flex-start;
+  background-color: white;
 }
 
 .swal2-footer{
   background-color: white;
-  justify-content: flex-start;
-  padding-left: 10%;
-  padding-right: 10%;
+  justify-content: flex-start !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
 }
 .swal2-close{
   font-weight:bold;
@@ -1053,14 +1054,14 @@ button.swal2-confirm {
   display: flex;
   flex-direction:column;
   justify-content: flex-start;
-  background-color: red;
+  background-color: white;
   max-width: 500px;
 }
 .textoFMV{
   display: flex;
   flex-direction:column;
   justify-content: flex-start;
-  background-color: red;
+  background-color: white;
   max-width: 500px;
 }
 
@@ -1083,16 +1084,22 @@ button.swal2-confirm {
 .FT tr , .DES tr{
   text-align: left;
 }
-
-.fragmentoH, .fragmentoV{
+.fragmentoH{
+  background-color: white; 
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  justify-content: flex-end;
+}
+.fragmentoV{
   background-color:white; 
   display: grid;
   grid-template-columns: 3fr 1fr;
-  padding: 1rem;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
+  justify-content: flex-start;
+  max-width: 500px;
 }
+
 @media screen and (max-width: 768px){
   .fragmentoH, .fragmentoV{
       grid-template-columns: 1fr;
@@ -1101,14 +1108,14 @@ button.swal2-confirm {
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
-    background-color: blue;
+    background-color: white;
     width: auto;
   }
   .textoFMV{
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
-    background-color: blue;
+    background-color: white;
     width: auto;
   }
 }
@@ -1118,6 +1125,7 @@ button.swal2-confirm {
 .fragPintura{
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 .fragPintura img{
   height: 175px;

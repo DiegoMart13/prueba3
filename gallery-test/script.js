@@ -367,7 +367,7 @@ pintura2F1.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura2-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura2-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -421,7 +421,7 @@ pintura2F2.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura2-2.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura2-2.jpg" alt=""></img>'+  
     '   </div>'+
     ' </div>',
     showClass: {
@@ -475,7 +475,7 @@ pintura2F3.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos//Pintura2-3.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos//Pintura2-3.jpg" alt=""></img>'+  
     '   </div>'+
     ' </div>',
     showClass: {
@@ -1117,7 +1117,7 @@ pintura14F1.addEventListener("click", () => {
           '     </TABLE>'+
           '   </div>'+
           '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura 46-2.jpg" alt=""></img>'+  
+          '     <img src="./images/fragmentos/Pintura 46-2.jpg" alt=""></img>'+  
           '   </div>'+
           ' </div>'+
           '</div>',
@@ -1168,7 +1168,7 @@ pintura14F2.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 46-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 46-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -1266,7 +1266,7 @@ pintura15F1.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 47-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 47-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -1307,7 +1307,7 @@ pintura15F2.addEventListener("click", () => {
           '     </TABLE>'+
           '   </div>'+
           '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura 47-2.jpg" alt=""></img>'+  
+          '     <img src="./images/fragmentos/Pintura 47-2.jpg" alt=""></img>'+  
           '   </div>'+
           ' </div>'+
           '</div>',
@@ -1353,7 +1353,7 @@ pintura15F3.addEventListener("click", () => {
           '     </TABLE>'+
           '   </div>'+
           '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura 47-3.jpg" alt=""></img>'+  
+          '     <img src="./images/fragmentos/Pintura 47-3.jpg" alt=""></img>'+  
           '   </div>'+
           ' </div>'+
           '</div>',
@@ -1456,7 +1456,7 @@ pintura16F1.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 49-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 49-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -1502,7 +1502,7 @@ pintura16F2.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 49-2.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 49-2.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -1595,7 +1595,7 @@ pintura18F1.addEventListener("click", () => {
           '     </TABLE>'+
           '   </div>'+
           '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura 14-1.jpg" alt=""></img>'+  
+          '     <img src="./images/fragmentos/Pintura 14-1.jpg" alt=""></img>'+  
           '   </div>'+
           ' </div>'+
           '</div>',
@@ -1690,7 +1690,7 @@ pintura19F1.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 15-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 15-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -1780,7 +1780,7 @@ pintura20F1.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 16-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 16-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -1865,7 +1865,7 @@ pintura21F1.addEventListener("click", () => {
           '     </TABLE>'+
           '   </div>'+
           '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura 17-2.jpg" alt=""></img>'+  
+          '     <img src="./images/fragmentos/Pintura 17-2.jpg" alt=""></img>'+  
           '   </div>'+
           ' </div>'+
           '</div>',
@@ -1916,7 +1916,7 @@ pintura21F2.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 17-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 17-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -2001,7 +2001,7 @@ pintura22F1.addEventListener("click", () => {
           '     </TABLE>'+
           '   </div>'+
           '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/Pintura 18-1.jpg" alt=""></img>'+  
+          '     <img src="./images/fragmentos/Pintura 18-1.jpg" alt=""></img>'+  
           '   </div>'+
           ' </div>'+
           '</div>',
@@ -2052,7 +2052,7 @@ pintura22F2.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 18-2.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 18-2.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -2230,7 +2230,7 @@ pintura24F1.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 20-1.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 20-1.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -2276,7 +2276,7 @@ pintura25F1.addEventListener("click", () => {
     '     </TABLE>'+
     '   </div>'+
     '   <div class="fragPintura">'+
-    '     <img src="../images/fragmentos/Pintura 21-2.jpg" alt=""></img>'+  
+    '     <img src="./images/fragmentos/Pintura 21-2.jpg" alt=""></img>'+  
     '   </div>'+
     ' </a>',
     showClass: {
@@ -2688,7 +2688,7 @@ pintura32F1.addEventListener("click", () => {
           '     </TABLE>'+
           '   </div>'+
           '   <div class="fragPintura">'+
-          '     <img src="../images/fragmentos/imagen completa-1.jpg" alt="" ></img>'+  
+          '     <img src="./images/fragmentos/imagen completa-1.jpg" alt="" ></img>'+  
           '   </div>'+
           ' </div>'+
           '</div>',
