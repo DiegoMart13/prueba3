@@ -2797,37 +2797,37 @@ const pintura35 = document.querySelector('.pintura35');
 pintura35.addEventListener("click", () => {
   const options = {
     html: 
-          '<div class="modalH">'+
+          '<div class="modalV">'+
           ' <div class="pinturaM">'+
           '   <img src="./images/12-lupus/Pintura 42-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Lupus</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  120x120cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
           ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
-    footer:' <div class="textoMH">'+
-    '     <TABLE class="FT">'+
-    '       <TR>'+
-    '         <TH>Ficha Técnica:</TH>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Sin Título</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Artista:  Lupus</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Fragmentaciones:  Ninguna</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Técnica:  Acrílico sobre madera</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Medidas:  120x120cm</TD>'+
-    '       </TR>'+
-    '     </TABLE>'+
-    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -2841,37 +2841,37 @@ const pintura36 = document.querySelector('.pintura36');
 pintura36.addEventListener("click", () => {
   const options = {
     html: 
-          '<div class="modalH">'+
+          '<div class="modalV">'+
           ' <div class="pinturaM">'+
           '   <img src="./images/12-lupus/Pintura 44-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Lupus</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  120x120cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
           ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
-    footer:' <div class="textoMH">'+
-    '     <TABLE class="FT">'+
-    '       <TR>'+
-    '         <TH>Ficha Técnica:</TH>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Sin Título</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Artista:  Lupus</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Fragmentaciones:  Ninguna</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Técnica:  Acrílico sobre madera</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Medidas:  120x120cm</TD>'+
-    '       </TR>'+
-    '     </TABLE>'+
-    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
@@ -2885,37 +2885,37 @@ const pintura37 = document.querySelector('.pintura37');
 pintura37.addEventListener("click", () => {
   const options = {
     html: 
-          '<div class="modalH">'+
+          '<div class="modalV">'+
           ' <div class="pinturaM">'+
           '   <img src="./images/12-lupus/Pintura 45-min.jpg" alt=""></img>'+  
+          ' </div>'+
+          ' <div class="textoMV">'+
+          '     <TABLE class="FT">'+
+          '       <TR>'+
+          '         <TH>Ficha Técnica:</TH>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Sin Título</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Artista:  Lupus</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Fragmentaciones:  Ninguna</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Técnica:  Acrílico sobre madera</TD>'+
+          '       </TR>'+
+          '       <TR>'+
+          '         <TD>Medidas:  120x120cm</TD>'+
+          '       </TR>'+
+          '     </TABLE>'+
           ' </div>'+
           '</div>',
     showCloseButton: true,
     showConfirmButton: false,
     width:"95%",
     background: "#fff8",
-    footer:' <div class="textoMH">'+
-    '     <TABLE class="FT">'+
-    '       <TR>'+
-    '         <TH>Ficha Técnica:</TH>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Sin Título</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Artista:  Lupus</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Fragmentaciones:  Ninguna</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Técnica:  Acrílico sobre madera</TD>'+
-    '       </TR>'+
-    '       <TR>'+
-    '         <TD>Medidas:  120x120cm</TD>'+
-    '       </TR>'+
-    '     </TABLE>'+
-    ' </div>',
     showClass: {
       popup: 'animate__animated animate__zoomIn'
     },
