@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
         <title>Exposición Digital: Neza... una realidad olvidada</title>
         <link rel="stylesheet" href="./css/style.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
@@ -30,6 +31,20 @@
         body{
             overflow: overlay;
         }
+        .ico__mouse{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:40px;
+            right:20px;
+            background-color: #efd9ab;
+            color:rgb(0, 0, 0);
+            border-radius:50px;
+            text-align:center;
+        
+            z-index:100;
+        }
+
     </style>
     <body>
         <main>
@@ -37,6 +52,15 @@
             </div>
             <header class="container__des"></header>
             <section class="container hero">
+                <a href=" " class="ico__mouse" target="_blank"> <i class="whatsapp-icon ">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/wtfdpwey.json"
+                        trigger="loop"
+                        colors="primary:#FFF,secondary:#fff"
+                        stroke="25"
+                        style="width:50px;height:150px; margin-top: -40px;">
+                    </lord-icon>
+                </i></a>
                 <div class="hero__inner">
                     <div class="hero__images"><img class="hero__image" src="./images/13-alfredo-arcos/Pintura1-min.jpg"/></div>
                     <div class="hero__content">
@@ -60,6 +84,7 @@
         </main>
         <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
         <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
         <script src="./js/main.js"></script>
     </body>
 </html>
