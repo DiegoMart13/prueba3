@@ -1023,12 +1023,14 @@ a{
 .textoMH{
   display: flex;
   flex-direction:column;
+  justify-content: flex-start;
 }
 
 .swal2-footer{
   background-color: white;
   justify-content: flex-start;
-
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .swal2-close{
   font-weight:bold;
@@ -1050,16 +1052,16 @@ button.swal2-confirm {
 .textoMV{
   display: flex;
   flex-direction:column;
-  justify-content: center;
-  background-color: white;
-  flex-basis: 60%;
+  justify-content: flex-start;
+  background-color: red;
+  max-width: 500px;
 }
 .textoFMV{
   display: flex;
   flex-direction:column;
-  justify-content: center;
-  background-color: white;
-  flex-basis: 100%;
+  justify-content: flex-start;
+  background-color: red;
+  max-width: 500px;
 }
 
 .FT{
@@ -1094,6 +1096,20 @@ button.swal2-confirm {
 @media screen and (max-width: 768px){
   .fragmentoH, .fragmentoV{
       grid-template-columns: 1fr;
+  }
+  .textoMV{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    background-color: blue;
+    width: auto;
+  }
+  .textoFMV{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    background-color: blue;
+    width: auto;
   }
 }
 
