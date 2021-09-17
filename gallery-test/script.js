@@ -58,43 +58,6 @@ const mobileMenu = () => {
 };
 menu.addEventListener('click', mobileMenu);
 
-console.log("work");
-
-
-var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop,
-  isVisible = true;
-
-function show(){
-  if(!isVisible){
-    TweenLite.to(".navbar", 1, { y: "0%" }, 0);
-    isVisible = true;
-  }
-}
-
-function hide(){
-  if(isVisible){
-    TweenLite.to(".navbar", 1, { y: "-100%" }, 0);
-    isVisible = false;
-  }
-}
-
-function refresh() {
-  var newScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  if (newScrollTop > currentScrollTop) {
-    hide();
-  } else if (newScrollTop < currentScrollTop) {
-    show();
-  }
-  currentScrollTop = newScrollTop;
-}
-
-window.addEventListener("scroll", refresh, {
-  passive: true
-});
-refresh();
-
-
-
 
 window.addEventListener("load", function () {
   gsap.registerPlugin(ScrollTrigger);
@@ -218,7 +181,7 @@ verMas.addEventListener("click", () => {
   Swal.fire(options);
 });
 /*EVITAR CLIC DERECHO*/
-//document.oncontextmenu = function(){return false}
+document.oncontextmenu = function(){return false}
 //______MODALES CAROUSEL PASADO-ORIGEN_____________
 
 const pintura1 = document.querySelector('.pintura1');
