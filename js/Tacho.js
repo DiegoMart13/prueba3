@@ -38,3 +38,4 @@ p36.addEventListener("click", () => {
   };
   Swal.fire(options);
 })
+document.oncontextmenu = function(){return false}
