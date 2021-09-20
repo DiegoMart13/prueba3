@@ -37,6 +37,6 @@ function inicio(){
     });
 } 
 inicio();
- 
+document.oncontextmenu = function(){return false}
 
 
