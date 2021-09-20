@@ -6,52 +6,9 @@
 :root {
   --text-color: #111;
   --bg-color: #b9b3a9;
-  --red: #f9032f;
-  --black: #000;
   --white: #fff;
   --greyfont:#474644;
-}
-.transition-1 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 101;
-  background-color: var(--greyfont);
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.5s ease-out;
-}
-.transition-1.is-active {
-  pointer-events: all;
-  opacity: 1;
-}
-.transition-2 {
-  position: fixed;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  bottom: 0;
-  z-index: 101;
-  background-color: var(--greyfont);
-  transition: 0.5s ease-out;
-}
-.transition-2.is-active {
-  left: 0px;
-}
-.transition-3 {
-  position: fixed;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 101;
-  background-color: var(--greyfont);
-  transition: 0.5s ease-out;
-}
-.transition-3.is-active {
-  top: 0;
+  --blue:#002F6C;
 }
 .centrado{
   background-color: transparent;
@@ -97,7 +54,7 @@
   }
 }
 .navbar{
-  background:#002F6C;
+  background: var(--blue);
   height: 60px;
   padding: 0.5rem calc((100vw - 1200px)/2);
   display: flex;
@@ -132,7 +89,7 @@
   text-transform: uppercase;
 }
 .navbar__link:hover{
-  color:#002F6C;
+  color: var(--blue);
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 15px 30px;
@@ -179,7 +136,7 @@ ul{
 }
 .lista li ul li a:hover { 
   background: transparent; 
-  color: #002F6C;  
+  color:  var(--blue);  
 }
 .lista li:hover ul {
   display: block;
@@ -200,7 +157,7 @@ ul{
     cursor: pointer;
   } 
   .lista li ul li:hover { 
-    background: #002F6C; 
+    background: var(--blue); 
     color: #EAD096; 
   }
   .lista li:hover ul {
@@ -233,7 +190,7 @@ ul{
     z-index: 99;
     height: 100vh;
     font-size: 1.5rem;
-    background: #002F6C;
+    background: var(--blue);
   }
   .navbar__toggle .bar{
     width: 25px;
@@ -283,7 +240,6 @@ ul{
   height: 80%;
 }
 .topline{
-  color: var(--red);
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0.5rem ;
@@ -324,8 +280,6 @@ ul{
     font-size: clamp(1rem, 6vw, 3rem);
     text-align:center;
     z-index: 0;
-    border-style: dotted;
-    border-color: green;
   }
 }
 body {
@@ -455,7 +409,7 @@ h2 {
   font-size:1.5rem;
 }
 .text-box h1:hover{
-  color: #002f6c;
+  color: var(--blue);
 }
 .text-box a i {
   margin-left: 50%;
@@ -484,7 +438,6 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   padding: 50px 10vw;
-  border-color: yellow;
   position: relative;
 }
 .pin-wrap > * {
@@ -495,7 +448,6 @@ h2 {
 }
 .image {
   position: relative;
-  border-color: chartreuse;
 }
 .autor__name {
   position: absolute;
@@ -909,7 +861,7 @@ button.swal2-confirm {
 }
 .f-btn{
   font-family: Poppins;
-  color:#002F6C;
+  color:var(--blue);
   padding-top: 10px;
   padding-bottom: 7px;
   padding-left: 15px;
@@ -921,7 +873,7 @@ button.swal2-confirm {
   background-color: #fff;
 }
 .footer__links a:hover{
- color: #002F6C;
+ color: var(--blue);
 }
 .location{
   display: flex;
@@ -972,7 +924,7 @@ button.swal2-confirm {
   animation: slide 0.3s ease-in-out forwards;
 }
 .transition.slide .cover2 {
-  background-color: #002f6c;
+  background-color: var(--blue);
   animation: slide 0.3s ease-in-out forwards;
   animation-delay: 0.3s;
 }

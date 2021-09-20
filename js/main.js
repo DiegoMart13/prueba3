@@ -31,12 +31,12 @@ function inicio(){
         scrollTrigger: '.button__index',
         duration: 3.9,
         opacity: 0,
-        y: 100,
+        x: -100,
         delay: 2.7,
         stagger:1
     });
 } 
 inicio();
-document.oncontextmenu = function(){return false}
+ 
 
 
