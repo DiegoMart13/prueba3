@@ -1,84 +1,34 @@
-/*const link = document.querySelector(".link");
-const transition = document.querySelector(".transition");
-link.addEventListener("click", (e) => {
-  e.preventDefault();
-  transition.classList.add("slide");
-  setTimeout(() => {
-    window.location = link.href;
-  }, 900);
-});*/
+  /* SCRIPT - futuro.html*/ 
+ /* CARGA DE PAGINA */
 window.onload = function(){
- 
     $('#onload').fadeOut();
     $('body').addClass('hidden');
-  }  
-  /*window.onload = () => {
-    const anchors = document.querySelectorAll('a');
-    const transition_el = document.querySelector('.transition');
-    $('#onload').fadeOut();
-    $('body').addClass('hidden');
-    setTimeout(() => {
-      transition_el.classList.remove('is-active');
-    }, 500);
-  
-    for (let i = 0; i < anchors.length; i++) {
-      const anchor = anchors[i];
-  
-      anchor.addEventListener('click', e => {
-        e.preventDefault();
-        let target = e.target.href;
-  
-        console.log(transition_el);
-  
-        transition_el.classList.add('is-active');
-  
-        console.log(transition_el);
-  
-        setInterval(() => {
-          window.location.href = target;
-        }, 500);
-      })
-    }
-  }
-  */
-  
+}  
+  /* NAVBAR - ANIMACION */
   const menu = document.querySelector('#mobile-menu');
   const menuLinks = document.querySelector('.navbar__menu');
   const navLogo = document.querySelector('#navbar__logo');
   const body = document.querySelector('body');
-  
-  //display mobile menu
-  
+  //display 
   const mobileMenu = () => {
       menu.classList.toggle('is-active');
       menuLinks.classList.toggle('active');
       body.classList.toggle('active');
-  
-  
   };
   menu.addEventListener('click', mobileMenu);
-  
-  
-  
-  
+  /* CARGA DEL CONTENIDO - DESPLAZAMINETO HORIZONTAL CON LOCOMOTIVESCROLL Y GSAP */
   window.addEventListener("load", function () {
     gsap.registerPlugin(ScrollTrigger);
-  
     const pageContainer = document.querySelector(".container");
     pageContainer.setAttribute("data-scroll-container", "");
-  
     const scroller = new LocomotiveScroll({
       el: pageContainer,
       smooth: true,
       getDirection: true });
-  
-  
     scroller.on("scroll", function (t) {
       document.documentElement.setAttribute("data-direction", t.direction);
     });
-  
     scroller.on("scroll", ScrollTrigger.update);
-  
     ScrollTrigger.scrollerProxy(pageContainer, {
       scrollTop(value) {
         return arguments.length ?
@@ -91,22 +41,15 @@ window.onload = function(){
           top: 0,
           width: window.innerWidth,
           height: window.innerHeight };
-  
       },
       pinType: pageContainer.style.transform ? "transform" : "fixed" });
-  
-  
-    /* COLOR CHANGER */
-  
-    // Pinning and horizontal scrolling
-  
+    /* DIV HORIZONTALES - CAMBIOS DE COLOR */
+    // DIV DE REFERENCIA (WRAP)
     let horizontalSections = document.querySelectorAll(".horizontal-scroll");
-  
     horizontalSections.forEach(horizontalSection => {
       let pinWrap = horizontalSection.querySelector(".pin-wrap");
       let pinWrapWidth = pinWrap.offsetWidth;
       let horizontalScrollLength = pinWrapWidth - window.innerWidth;
-  
       gsap.to(pinWrap, {
         scrollTrigger: {
           scroller: "[data-scroll-container]",
@@ -116,18 +59,13 @@ window.onload = function(){
           start: "top top",
           end: () => `+=${pinWrapWidth}`,
           invalidateOnRefresh: true },
-  
         x: -horizontalScrollLength,
         ease: "none" });
-  
     });
-  
     const scrollColorElems = document.querySelectorAll("[data-bgcolor]");
-  
     scrollColorElems.forEach((colorSection, i) => {
       const prevBg = i === 0 ? "" : scrollColorElems[i - 1].dataset.bgcolor;
       const prevText = i === 0 ? "" : scrollColorElems[i - 1].dataset.textcolor;
-  
       ScrollTrigger.create({
         trigger: colorSection,
         scroller: "[data-scroll-container]",
@@ -143,20 +81,12 @@ window.onload = function(){
           backgroundColor: prevBg,
           color: prevText,
           overwrite: "auto" }) });
-  
-  
     });
-  
     ScrollTrigger.addEventListener("refresh", () => scroller.update());
-  
     ScrollTrigger.refresh();
   });
-  
-   
   /*EVITAR CLIC DERECHO*/
   document.oncontextmenu = function(){return false}
- 
-
   //___________Carousel FUTURO-IDENTIDAD____________
   const pintura32 = document.querySelector('.pintura32');
   pintura32.addEventListener("click", () => {
