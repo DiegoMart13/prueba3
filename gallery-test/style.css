@@ -4,10 +4,9 @@
   padding:0;  
 }
 :root {
-  --text-color: #111;
+  --text-color: #595959;
   --bg-color: #b9b3a9;
   --white: #fff;
-  --greyfont:#474644;
   --blue:#002F6C;
 }
 .centrado{
@@ -82,6 +81,12 @@
   margin-left: 50px;
   margin-right: -50px;
 }
+.logos__svg{
+  width: 50px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+
+}
 .navbar__link{
   color: var(--white);
   text-decoration: none;
@@ -131,7 +136,7 @@ ul{
 }
 .lista li ul li a { 
   font-size: 11px;
-  color:var(--greyfont);
+  color:var(--text-color);
   text-decoration: underline;
 }
 .lista li ul li a:hover { 
@@ -248,7 +253,7 @@ ul{
   margin-bottom: 3rem;
   font-size: clamp(2rem, 6vw, 3rem);
   z-index: 0;
-  color: #474644;
+  color: var(--text-color);
 }
 .services__feature{
   margin-bottom: 1.5rem;
@@ -315,23 +320,24 @@ img {
 .title {
   font-family: Josefin Sans;
 	text-align: center;
-	color: #333;
+	color: #E28837;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 10vh;
 	letter-spacing: 1px;
+  
 }
 .title__neza{
   font-family: Josefin Sans;
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 40px;
 	margin: 10px 0;
+  
 }
 h1 {
   margin-bottom: 1rem;
@@ -468,7 +474,7 @@ h2 {
   line-height: 2.5;
   text-transform: uppercase;
   font-family: Josefin Sans; 
-  color: #474644;
+  color: #E28837;
 }
 .frase{
   font-size: 15px;
@@ -476,7 +482,7 @@ h2 {
   text-align: justify;
   width: 400px;
   margin-right: 50px;
-  color: #474644 ;
+  color: var(--text-color) ;
 }
 @media screen and (max-width: 768px){
   .title__carrucel{
@@ -503,7 +509,7 @@ h2 {
 }
 .text {
   font-size: 20px;
-  color:#474644;
+  color:var(--text-color);
   text-align:justify;
   margin-left: 15% ;
   margin-right: 15%;
@@ -511,7 +517,7 @@ h2 {
 }
 .text__art{
   font-size: 20px;
-  color:#474644;
+  color: var(--text-color);
   text-align:justify;
   margin-left: 0% ;
   margin-right: 0%;
@@ -531,7 +537,7 @@ h2 {
   }
   h5{
     font-size: 50px;
-    color:#474644;
+    color:var(--text-color);
     text-align:justify;  
     font-family:  Poppins;
     display: flex;
@@ -542,7 +548,7 @@ h2 {
 }
 h5{
   font-size: 50px;
-  color:#474644;
+  color:var(--text-color);
   text-align:justify;
   font-family:  Josefin Sans;
   display: flex;
@@ -574,7 +580,7 @@ read__more{
   top:30%; 
   left:50%;
   font-size: 25px;
-  color: #474644;
+  color: var(--text-color);
   font-family: Poppins;
 }
 .read-more-btn:hover{
@@ -626,7 +632,7 @@ read__more{
   margin-bottom: 2rem;
   font-family: Poppins;
   text-transform: uppercase;  
-  color: #474644;
+  color: var(--text-color);
 }
 .artist__card a h3:hover{
    color:#EFE2CA;
@@ -717,7 +723,7 @@ button.swal2-confirm {
   font-size:1rem;
   font-family: Poppins;
   padding: 10px;
-  color: #474644;
+  color: var(--text-color);
   background-color: white; 
 }
 .DES{
@@ -725,7 +731,7 @@ button.swal2-confirm {
   font-size: 1.5rem;;
   font-family: Poppins;
   padding: 10px;
-  color: #474644;
+  color: var(--text-color);
 }
 .FT tr , .DES tr{
   text-align: left;
@@ -819,19 +825,26 @@ button.swal2-confirm {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   color: var(--white);
-  background: rgb(63, 63, 63);
+  background: #E28837;
+  
 }
 .footer__desc{
   padding: 0 2rem;
 }
 .footer__desc h3{
   margin-bottom: 2rem;
-  color:var(--bg-color);
-  font-size: 1.5rem;
+  margin-top: 2rem;
+  color:var(--white);
+  font-size: 2rem;
   font-family: Josefin Sans;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  
 }
 .footer__desc p{
   margin-bottom: 2rem;
+  text-align: justify;
 }
 #phone{
   font-weight: bold;
@@ -861,13 +874,14 @@ button.swal2-confirm {
 }
 .f-btn{
   font-family: Poppins;
-  color:var(--blue);
-  padding-top: 10px;
-  padding-bottom: 7px;
-  padding-left: 15px;
-  padding-right: 15px;
+  color:#E28837;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 15px 30px;
-  background-color: #efd9ab;
+  background-color: #fff;
+  text-transform: uppercase;
 }
 .f-btn:hover{
   background-color: #fff;
@@ -898,7 +912,7 @@ button.swal2-confirm {
 .material-icons.md-48 { 
   font-size: 48px; 
   color: #EFE2CA;
-  background-color: #474644;
+  background-color: var(--text-color);
 } 
 .ico__mouse{
   position:fixed;
@@ -957,7 +971,7 @@ img.logos_creditos {
 }
 .puesto p{
   font-size: 20px;
-  color:#474644;
+  color: var(--text-color);
   margin-left: 0% ;
   margin-right: 0%;
   font-family:  Poppins;

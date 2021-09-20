@@ -85,7 +85,7 @@ window.addEventListener("load", function () {
   ScrollTrigger.refresh();
 });
   /* BOTON "VER MAS" CON SWEETALERT */
-const verMas = document.querySelector(".verMas");
+//const verMas = document.querySelector(".verMas");
 verMas.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
