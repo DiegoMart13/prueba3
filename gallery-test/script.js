@@ -85,14 +85,12 @@ window.addEventListener("load", function () {
   ScrollTrigger.refresh();
 });
   /* BOTON "VER MAS" CON SWEETALERT */
-//const verMas = document.querySelector(".verMas");
+const verMas = document.querySelector(".verMas");
 verMas.addEventListener("click", () => {
   const options = {
     showCloseButton: true,
     html: 
-    '<p class="text" animate-text>'+
-    '  El lenguaje pictórico de la muestra permite que Ismael Ponce vaya más allá de su época y de las entrañas del tiempo rescate imágenes que pertenecen al espacio evolutivo de nuestros recuerdos y al devenir, siempre constante, del tiempo universal. <br> <br>'+
-    '  El maestro Juan Orozco Palmerín nos plantea, en su obra, la visión cálida y esperanzadora que acompañó a los fundadores de esta ciudad, creadores de lo imposible, verdaderos héroes de esta historia, cuya narrativa pertenece a una de las más grandes hazañas realizadas por el ser humano moderno.'+ 
+    '<p class="text">'+
     '  Dueño de una paleta colorida, el maestro Martín Cuaya Urciaga, nos muestra el entramado comunitario de la ciudad, en pleno movimiento, lleno de vitalidad. Los símbolos de identidad que aparecen en su obra aseguran la renovación constante de una época de verdades humanas inextinguibles. En el extremo discursivo del neo-expresionismo, nos invita a realizar una reflexión profunda sobre la condición humana en el pasado cercano y en la actualidad. La fuerza expresiva y la calidad que caracterizan su obra lo convierten, de manera ineludible, en uno de los grandes referentes artísticos de nuestra comunidad. <br> <br>'+
     '  El artista plástico Duany, nos muestra la solidaridad que emana de seres que sufren la pobreza y la desigualdad. Haciendo uso de un universo expresivo abstracto, exige del espectador una mirada que desentrañe la persistencia dinámica de un mundo sorprendente e inquietante. <br> <br>'+
     '  La presente exposición rescata dos autorretratos de “Tacho”, pintor fundacional de nuestra comunidad. Su importancia artística radica en el hecho de que es considerado el primer pintor en realizar un mural en un espacio público de Ciudad Nezahualcóyotl. <br> <br>'+
@@ -101,11 +99,11 @@ verMas.addEventListener("click", () => {
     '  Ciudad Nezahualcóyotl… una realidad olvidada para las nuevas generaciones, un reflejo poderoso habitado por recuerdos que emergieron de un sueño solidario y fundacional. Ciudad construida sobre la nostalgia inagotable de un lago que late en las páginas de un libro inmemorial. Ciudad Nezahualcóyotl, el primer camino a la verdad, a la luz, a la esperanza.'+
     '</p>',
     confirmButtonText: "Ver menos",
-    confirmButtonColor: '#EFE2CA',
+    confirmButtonColor: '#fff0',
     width:"80%",
     height:"100vh",
     backdrop: true,
-    background: '#EFE2CA',
+    background: '#C1DDE8',
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
