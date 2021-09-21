@@ -54,7 +54,7 @@
 }
 .navbar{
   background: var(--blue);
-  height: 60px;
+  height: 9%;
   padding: 0.5rem calc((100vw - 1200px)/2);
   display: flex;
   justify-content: space-between;
