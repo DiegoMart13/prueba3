@@ -264,9 +264,7 @@ ul{
   margin-bottom: 1.5rem;
   font-size: clamp(1rem, 5vw, 1.2rem);
 }
-.material-icons{
-  margin-right: 0.5rem;
-}
+
 @media screen and (max-width: 768px){
   .services__container{
     grid-template-columns: 1fr;
@@ -336,7 +334,7 @@ img {
 	color: #E28837;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	height: 10vh;
 	letter-spacing: 1px;
@@ -501,6 +499,18 @@ h2 {
 .frase__min{
   font-size: 1rem;
 }
+.cambio_carrucel{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.cambio_carrucel p{
+  font-size: 1rem;
+  font-family:  Poppins ;
+  color: #E28837 ;
+}
 @media screen and (max-width: 768px){
   .intro__carrucel{
     width: 70vw;
@@ -587,32 +597,32 @@ h5{
 .moreText {
   display: none;
 }
-.read__more{
-  display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+.button__index {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.read-more-btn {  
-  padding:10px;
-  background:
-  linear-gradient(-90deg,currentColor 50%,rgba(255, 255, 255, 0) 0) 0 0,
-  linear-gradient(  0deg,currentColor 50%,rgba(255, 255, 255, 0) 0) 0 0,
-  linear-gradient(currentColor 0 0) 100% 100%,
-  linear-gradient(currentColor 0 0) 100% 100%;
-  background-size: 200% 3px,3px 200%,3px 0%,0% 3px; 
-  background-repeat:no-repeat;
-  transition: .3s,background-size .3s .3s;
-  border: 0px;
-  font-size: 25px;
-  color: var(--white);
-  font-family: Poppins;
+.button__index a {
+  font-family:  poppins;
+  text-decoration: none;
+  color: #595959;
+  border: 3px solid #595959;
+  padding: 25px 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+  transition: 0.3s;
 }
-.read-more-btn:hover{
-  background-position: 100% 0,0 100%,100% 0,0 100%;
-  background-size: 200% 3px,3px 200%,3px 100%,100% 3px; 
-  transition: .3s,background-position .3s .3s;
+.button__index:hover a {
+  background: #E28837;
+  color: #595959;
+  border:   #E28837;
+  font-size: 13px;
+  box-shadow: 1px 1px 25px 10px #E28837;
+  font-weight: bold; 
 }
+
 .text.show-more .moreText {
   display: inline;
 }
@@ -718,25 +728,25 @@ a{
   font-weight:bold;
   color: #000 !important;
 }
+
 button.swal2-confirm {
-  padding:10px !important;
-  background:
-  linear-gradient(-90deg,currentColor 50%,rgba(255, 255, 255, 0) 0) 0 0,
-  linear-gradient(  0deg,currentColor 50%,rgba(255, 255, 255, 0) 0) 0 0,
-  linear-gradient(currentColor 0 0) 100% 100%,
-  linear-gradient(currentColor 0 0) 100% 100% !important;
-  background-size: 200% 3px,3px 200%,3px 0%,0% 3px !important; 
-  background-repeat:no-repeat !important;
-  transition: .3s,background-size .3s .3s !important;
-  border: 0px !important;
-  font-size: 25px !important;
-  color: var(--white) !important;
-  font-family: Poppins !important;
+  font-family:  poppins !important;
+  text-decoration: none !important;
+  color: #595959 !important;
+  border: 3px solid #595959 !important;
+  padding: 25px 40px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 4px !important;
+  font-size: 12px !important;
+  transition: 0.3s !important;
 }
 button.swal2-confirm:hover{
-  background-position: 100% 0,0 100%,100% 0,0 100% !important;
-  background-size: 200% 3px,3px 200%,3px 100%,100% 3px !important; 
-  transition: .3s,background-position .3s .3s !important;
+  background: #E28837 !important;
+  color: #595959 !important;
+  border:   #E28837 !important;
+  font-size: 13px !important;
+  box-shadow: 1px 1px 25px 10px #E28837 !important;
+  font-weight: bold !important; 
 }
 .modalV{
   display: flex;

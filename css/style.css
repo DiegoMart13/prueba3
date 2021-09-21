@@ -7,10 +7,10 @@
 :root{
     --grey: white;
     --blue:#fff; 
-    --orange: #ead096;
-    --orange2: #efd9ab;
+    --orange: #FAE194;
+    --orange2: #FAE194;
     --white: #474644;
-    --black: #efe2ca;
+    --black: #FAE194;
 }
 html{
     background:var(--blue);
@@ -23,7 +23,7 @@ body {
     width: 100%;
     height: auto;
     color: #fff;
-    background: linear-gradient(90deg ,#002F6C,#002F6C);
+    background: linear-gradient(90deg ,#C1DDE8,#C1DDE8);
     background-size: 400% 400%;
     position: relative;
     /* animation: change 10s ease-in-out infinite; */ 
