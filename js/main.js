@@ -29,7 +29,7 @@ function inicio(){
     })
     gsap.from('.button__index',{
         scrollTrigger: '.button__index',
-        duration: 3.9,
+        duration: 2.5,
         opacity: 0,
         x: -100,
         delay: 2.7,
