@@ -32,7 +32,7 @@ function inicio(){
         duration: 2.5,
         opacity: 0,
         x: -100,
-        delay: 2.7,
+        delay: 2.3,
         stagger:1
     });
 } 
