@@ -465,39 +465,44 @@ h2 {
   height: 50px;
 }
 .intro__carrucel{
-  border-style: dotted ;
-  border-color: rebeccapurple;
   width: 45vw;
-   
 }
 .title__carrucel{
-  
- margin-left: 15%;
-  font-size:2.5rem;
-  line-height: 2;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+  font-size:1.5rem;
+  line-height: 2.3;
   text-transform: uppercase;
   font-family: Josefin Sans;
   font-weight: bolder;
   color: #E28837;
-  border-style: dotted ;
-  border-color: rgb(92, 153, 51);
-
+  text-align: center;
 }
 .frase{
   font-size: 1.5rem;
   font-family:  Poppins ;
   text-align: justify;
- 
- 
   color: var(--text-color) ;
-  border-style: dotted ;
-  border-color: rgb(9, 116, 255);
   word-spacing: 1px;
 }
+.frase__min{
+  font-size: 1rem;
+}
 @media screen and (max-width: 768px){
+  .intro__carrucel{
+    width: 70vw;
+  }
   .title__carrucel{
     font-size:5vw;
     line-height: 2.5;
+  }
+  .frase{
+    font-size: 1rem;
+    text-align: left;
+  }
+  .frase__min{
+    font-size: .8rem;
+    
   }
 }
 .text-block-inicio{
