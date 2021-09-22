@@ -28,6 +28,9 @@
 .hidden{
   overflow: auto;
 }
+.container{
+  overflow:hidden !important;
+}
 .lds-dual-ring {
   display: inline-block;
   width: 80px;
