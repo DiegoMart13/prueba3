@@ -356,19 +356,15 @@ img {
 .title__neza{
   font-family: Josefin Sans;
 	background-size: cover;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 40px;
-	margin: 10px 0;
   
 }
 h1 {
   margin-bottom: 1rem;
-  position: absolute;
-  top: 6vw;
-  position:relative;
-  left: 0;
+  display: flex;
+  flex-direction: row;
+	align-self: center;
 }
 @media (max-width: 706px) {
   .title {  
@@ -626,10 +622,10 @@ h5{
   display: none;
 }
 .button__index {
-  position: absolute;
-  top: 93%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px;
 }
 .button__index a {
   font-family:  poppins;
@@ -649,6 +645,10 @@ h5{
   font-size: 13px;
   box-shadow: 1px 1px 25px 10px #E28837;
   font-weight: bold; 
+}
+
+.swal2-html-container p.text {
+  
 }
 
 .text.show-more .moreText {
