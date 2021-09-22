@@ -54,7 +54,7 @@
 }
 .navbar{
   background: var(--blue);
-  height: 9% !important;
+  height: 9%;
   padding: 0.5rem calc((100vw - 1200px)/2);
   display: flex;
   justify-content: space-between;
@@ -338,7 +338,17 @@ img {
 	justify-content: center;
 	height: 10vh;
 	letter-spacing: 1px;
-  
+}
+.title__artistas {
+  font-family: Josefin Sans;
+	text-align: center;
+	color: #E28837;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+	letter-spacing: 1px;
 }
 .title__neza{
   font-family: Josefin Sans;
@@ -359,6 +369,16 @@ h1 {
 }
 @media (max-width: 706px) {
   .title {  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    letter-spacing: 1px;
+    margin-top: 30%;
+  }
+  .title__artistas {  
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -477,15 +497,20 @@ h2 {
 }
 .intro__carrucel{
   width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .title__carrucel{
-  margin-left: 33.3%;
-  margin-right: 33.3%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-size:1.5rem;
   line-height: 2.3;
   text-transform: uppercase;
   font-family: Josefin Sans;
   font-weight: bolder;
+  font-size: 40px;
   color: #E28837;
   text-align: center;
 }

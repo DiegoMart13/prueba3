@@ -155,11 +155,11 @@ body {
     transition: 0.3s;
 }
 .button__index:hover a {
-    background: var(--orange);
+    background: #E28837;
     color: var(--blue);
-    border:   var(--orange2);
+    border:   #E28837;
     font-size: 13px;
-    box-shadow: 1px 1px 25px 10px var(--orange);
+    box-shadow: 1px 1px 25px 10px #E28837;
     font-weight: bold;
     
 }
