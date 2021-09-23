@@ -31,6 +31,12 @@
 .container{
   overflow:hidden !important;
 }
+
+.container hr.hr1{
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(226, 136, 55, 0.80), rgba(0, 0, 0, 0));
+}
 .lds-dual-ring {
   display: inline-block;
   width: 80px;
@@ -72,7 +78,6 @@
 .navbar__sub{
   background: #A89469;
   height: 8px;
- 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -648,7 +653,7 @@ h5{
 }
 
 .swal2-html-container p.text {
-  
+
 }
 
 .text.show-more .moreText {
