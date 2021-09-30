@@ -91,7 +91,7 @@ body {
     display: flex;
 }
 .container .box .role p {
-    animation: secFadeIn 2s forwards;
+    animation: mainFadeIn 2s forwards;
     animation-delay: 5.6s;
     opacity: 0;
     font-weight: 700;
