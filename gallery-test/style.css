@@ -272,6 +272,10 @@ ul{
   margin-bottom: 1.5rem;
   font-size: clamp(1rem, 5vw, 1.2rem);
 }
+.text_animate-text{
+  text-align: justify;
+  width: 90%;
+}
 
 @media screen and (max-width: 768px){
   .services__container{
