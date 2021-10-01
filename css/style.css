@@ -58,8 +58,8 @@ body {
     height: inherit;
     background: var(--orange2);
     position: absolute;
-    animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
-    animation-delay: 3.5s;
+    /*animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    animation-delay: 3.5s;*/
     display: flex;
 }
 .container .box .title h1 {
@@ -67,7 +67,7 @@ body {
     color: white !important;
     font-size: 20;
     animation: mainFadeIn 2s forwards;
-    animation-delay: 4.6s;
+   /* animation-delay: 4.6s;*/
     opacity: 0;
     display: flex;
 }
@@ -86,13 +86,13 @@ body {
     height:100px;
     background: var(--blue);
     position: absolute;
-    animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
-    animation-delay: 5s;
+    /*animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    animation-delay: 5s;*/
     display: flex;
 }
 .container .box .role p {
     animation: mainFadeIn 2s forwards;
-    animation-delay: 5.6s;
+    /*animation-delay: 5.6s;*/
     opacity: 0;
     font-weight: 700;
     font-family: poppins;

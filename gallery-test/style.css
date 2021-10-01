@@ -364,6 +364,7 @@ img {
 }
 .title__neza{
   font-family: Josefin Sans;
+  width: 100%;
 	background-size: cover;
 	text-transform: uppercase;
 	font-size: 40px;
