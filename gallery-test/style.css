@@ -701,14 +701,28 @@ h5{
   justify-content: space-between;
 }
 .artist__card a h3{
-  font-size: clamp(1rem, 5vw, 2rem);
+  /*font-size: clamp(1rem, 5vw, 2rem);
   margin-bottom: 2rem;
   font-family: Poppins;
   text-transform: uppercase;  
-  color: var(--text-color);
+  color: var(--text-color);*/
+  font-family:  poppins;
+  text-decoration: none;
+  color: #595959;
+  border: 3px solid #595959;
+  padding: 25px 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+  transition: 0.3s;
 }
 .artist__card a h3:hover{
-   color:#EFE2CA;
+  background: #E28837;
+  color: #ece5e5;
+  border:   solid #E28837;
+  font-size: 15px;
+  box-shadow: 1px 1px 25px 10px #E28837;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1100px){
