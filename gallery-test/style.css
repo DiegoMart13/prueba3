@@ -531,7 +531,9 @@ h2 {
   word-spacing: 1px;
 }
 .frase__min{
-  font-size: 1rem;
+  /*font-size: 1rem;*/
+  margin-left: -25.7%;
+  text-align: justify;
 }
 .cambio_carrucel{
   display: flex;
@@ -701,11 +703,6 @@ h5{
   justify-content: space-between;
 }
 .artist__card a h3{
-  /*font-size: clamp(1rem, 5vw, 2rem);
-  margin-bottom: 2rem;
-  font-family: Poppins;
-  text-transform: uppercase;  
-  color: var(--text-color);*/
   font-family:  poppins;
   text-decoration: none;
   color: #595959;
