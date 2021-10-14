@@ -706,11 +706,11 @@ h5{
   font-family:  poppins;
   text-decoration: none;
   color: #595959;
-  border: 3px solid #595959;
+  /*border: 3px solid #595959;*/
   padding: 25px 40px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 12px;
+  font-size: 15px;
   transition: 0.3s;
 }
 .artist__card a h3:hover{
